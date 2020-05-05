@@ -84,8 +84,18 @@ $num = {$num}
 <br>
 
 {empty name="test"}
-    
+    $test 为空变量
+{else}
+    $test 不为空
 {/empty}
+
+<br>
+
+{defined name="PI"}
+    常量 PI 已定义
+{else}
+    常量 PI 未定义
+{/defined}
 
 </body>
 </html>

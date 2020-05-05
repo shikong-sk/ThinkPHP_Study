@@ -89,4 +89,31 @@ class Index extends Controller
             "num" => 10
         ]);
     }
+
+    public function block(){
+
+        // 临时控制是否开启 LayOut 布局
+        $this->view->engine->layout(true);
+
+        return $this->fetch('block',[
+            'title'=>'测试标题',
+            "keywords"=>"测试,php,tp,thinkPHP"
+        ]);
+    }
+
+    public function extend(){
+        return $this->fetch("extend",[
+            "title" => "测试标题"
+        ]);
+    }
+
+    public function other(){
+        return $this->fetch('other',[
+            'name'=>'Hacker-Shikong',
+        ]);
+    }
+
+    public function test(){
+        return $this->fetch('other');
+    }
 }
