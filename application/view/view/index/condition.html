@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+{switch $num}
+    {case 1}
+        1
+    {/case}
+    {case 10|20|30}
+        10 | 20 | 30
+    {/case}
+    {default} EXM?
+{/switch}
+
+<br>
+
+$num = {$num} --
+
+<br>
+{assign name="$num" value="10"}
+
+{assign name="$num" value=":$num-1"}
+
+
+{if ($num) && ($num%10 == 0)}
+    $num 为 10 的倍数
+{else}
+    $num 不为 10 的倍数
+{/if}
+
+<br>
+
+$num = {$num}
+
+$num = {:$num = mt_rand(1,3)}
+
+<br>
+
+$num = {$num}
+
+<br>
+
+{if ($num % 2 == 0)}
+    $num 为 偶数
+{elseif ($num == 1)}
+    $num == 1
+{else}
+    $num 为 奇数
+{/if}
+
+<br>
+
+{assign name="$num" value="10"}
+
+$num = {$num}
+
+<br>
+
+{in name="$num" value="0,10,20"}
+    $num 在 [0,10,20] 中
+{/in}
+
+<br>
+
+{between name="$num" value="50,100"}
+    $num 在 50,100 之中
+{else}
+    $num 不在 50,100 之中
+
+{/between}
+
+<hr>
+
+{present name="test"}
+    test 已定义
+{else}
+    test 未定义
+{/present}
+
+<br>
+
+{empty name="test"}
+    
+{/empty}
+
+</body>
+</html>

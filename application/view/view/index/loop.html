@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+{foreach $data as $key=>$obj}
+    {$key}-{$obj.studentId}-{$obj.studentName}({$obj.gender})<br>
+{/foreach}
+
+<hr>
+
+{foreach :model('app\db\model\Student')->all() as $key=>$obj}
+    {$key}-{$obj.studentId}-{$obj.studentName}({$obj.gender})<br>
+{/foreach}
+
+<hr>
+
+{volist name="data" id="obj"}
+    {$key}-{$obj.studentId}-{$obj.studentName}({$obj.gender})<br>
+{/volist}
+
+<hr>
+
+{volist name=":model('app\db\model\Student')->all()" id="obj" }
+    {$key}-{$obj.studentId}-{$obj.studentName}({$obj.gender})<br>
+{/volist}
+
+<hr>
+
+{volist name="data" id="obj" offset="2" length="2"}
+    {$key}-{$obj.studentId}-{$obj.studentName}({$obj.gender})<br>
+{/volist}
+
+<hr>
+
+{volist name="data" id="obj" mod="2"}
+    {eq name='mod' value="0"}
+        {$key}-{$obj.studentId}-{$obj.studentName}({$obj.gender})<br>
+    {/eq}
+{/volist}
+
+<hr>
+
+{volist name=":model('app\db\model\Student')->where('studentId','')->all()" id="obj" empty="无数据"}
+    {$key}_{$i}-{$obj.studentId}-{$obj.studentName}({$obj.gender})<br>
+{/volist}
+
+<hr>
+
+{volist name=":model('app\db\model\Student')->where('studentId','<>','')->all()" id="obj" empty="无数据" key="i"}
+    {$key}_{$i}-{$obj.studentId}-{$obj.studentName}({$obj.gender})<br>
+{/volist}
+
+<hr>
+
+{for start="1" end="100" comparison="<=" step="1" name="x"}
+    {$x}
+{/for}
+
+</body>
+</html>

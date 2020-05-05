@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{$name}
+
+<br>
+
+{$test|default='空值'}
+
+<br>
+
+{$Think.server.remote_addr}:{$Think.server.remote_port}
+
+<br>
+
+{$Think.SERVER.REQUEST_URI}
+
+<br>
+
+{$Think.const.PHP_VERSION}
+
+<br>
+
+{$Think.PHP_VERSION}
+
+<br>
+
+{$Think.config.default_timezone}
+
+<hr>
+
+{$email} | {$email|raw} | {$email|upper} | {$name|lower|substr=0,5}
+
+<br>
+
+{$password} . {$password|sha1} . {$password|md5}
+
+<br>
+
+{$time} . {$time|date='Y-m-d H:i:s'}
+
+<br>
+
+{$float} _ {$float|format="%d"} _ {$float|format="%.1f"}
+
+<br>
+
+{:substr(strtoupper(sha1($password)),0,5)}
+
+</body>
+</html>

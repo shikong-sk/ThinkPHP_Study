@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+{eq name="author" value="Shikong"}
+    时空旅行者
+{/eq}
+
+<br>
+
+{neq name="author" value="Hacker-Shikong"}
+    Hacker-Shikong
+{/neq}
+
+<br>
+PHP版本：{$Think.PHP_VERSION} 使用 {:floatval(substr($Think.PHP_VERSION,0,3)) > 7 ? "random_int" : "mt_rand"} 随机数函数
+<br>
+
+
+<!--
+
+    eq      等于
+    heq     全等于
+    nheq    不全等于
+
+    gt      大于
+    egt     大于等于
+
+    lt      小于
+    elt     小于等于
+
+-->
+
+
+<!-- == -->
+{eq name=":floatval(substr($Think.PHP_VERSION,0,3)) > 7 ? random_int(0,1) : mt_rand(0,1)" value="1"}
+    相等
+{else}
+    不相等
+{/eq}
+
+<br>
+
+<!-- >= -->
+{egt name=":floatval(substr($Think.PHP_VERSION,0,3)) > 7 ? random_int(0,10) : mt_rand(0,10)" value="5"}
+    大于等于5
+{else}
+    小于5
+{/egt}
+
+<br>
+
+{compare type="elt" name=":floatval(substr($Think.PHP_VERSION,0,3)) > 7 ? random_int(0,10) : mt_rand(0,10)" value="5"}
+    小于等于5
+{else}
+    大于5
+{/compare}
+
+<br>
+
+{assign name="var" value="2020"}
+{$var}
+
+<br>
+
+{define name="PI" value=":pi()"}
+{$Think.const.PI}
+
+<br>
+
+{php}
+    echo "原生 PHP 代码";
+    echo "<br>";
+    echo $author;
+{/php}
+
+</body>
+</html>
