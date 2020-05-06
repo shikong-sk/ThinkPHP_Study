@@ -196,7 +196,7 @@ Route::resource("blog.comment","index/Comment")
 // 数组形式
 //Route::domain('news.localhost',["edit/:id"=>"collect/Index/edit"]);
 // 闭包形式
-Route::domain(['news.localhost','www.localhost'],function(){
+Route::domain(['news.localhost','www.localhost','localhost'],function(){
     Route::get("edit/:id","collect/Index/edit");
 });
 // 链式调用
@@ -208,6 +208,11 @@ Route::domain(['news.localhost','www.localhost'],function(){
 
 //Route::get("bc","index/Blog/create");
 Route::get("br/:id","index/Blog/read");
+
+// 局部缓存
+Route::get("rely/edit/:id","rely/Index/edit")
+    ->cache(3600)
+;
 
 return [
 

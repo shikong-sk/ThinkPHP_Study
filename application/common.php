@@ -10,3 +10,13 @@
 // +----------------------------------------------------------------------
 
 // 应用公共文件
+
+use think\Facade;
+
+// 单一绑定
+//Facade::bind('app\facade\Test','app\common\Test');
+
+// 批量绑定
+Facade::bind([
+    'app\facade\Test' => 'app\common\Test'
+]);
