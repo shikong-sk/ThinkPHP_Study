@@ -91,6 +91,104 @@ Route::get("student/:studentId","address/Index/getStudent")
     ->model("studentId","\app\db\model\Student")
 ;
 
+Route::get("s","short/Index/index");
+
+// 快捷路由
+Route::controller("sh","short/Index");
+
+// 分组路由
+//Route::group(
+//    'col',
+//    [
+//        ":id" => "collect/Index/read",
+//        ":name" => "collect/Index/who"
+//    ]
+//)
+//    ->pattern(["id"=>"\d+$","name"=>"\w+$"])
+//    ->ext("");
+//
+// 闭包形式
+//Route::group(
+//    'col',
+//    function (){
+//        Route::get(":id","collect/Index/read");
+//        Route::get(":name","collect/Index/who");
+//    }
+//)
+//    ->pattern(["id"=>"\d+$","name"=>"\w+$"])
+//    ->ext("");
+//
+// 简化前缀
+//Route::group(
+//    'col',
+//    function (){
+//        Route::get(":id","read");
+//        Route::get(":name","who");
+//    }
+//)
+//    ->prefix("collect/Index/")
+//    ->pattern(["id"=>"\d+$","name"=>"\w+$"])
+//    ->ext("")
+//    ->append(
+//        [
+//            "flag" => 1
+//        ]
+//    ) // 额外参数
+//;
+
+// MISS 路由
+// 全局
+//Route::miss('error/miss');
+// 分组 路由
+Route::group(
+    'col2',
+    function (){
+        Route::get(":id","read");
+        Route::miss("miss");
+    }
+)
+    ->prefix("collect/Index/")
+    ->pattern(["id"=>"\d+$","name"=>"\w+$"])
+    ->ext("")
+    // 添加额外参数
+    ->append(
+        [
+            "flag" => 1
+        ]
+    )
+    // 跨域请求
+    ->header("Access-Control-Allow-Origin", "http://localhost")
+    ->allowCrossDomain()
+;
+
+
+// 路由绑定
+//Route::bind("testAdmin");
+
+// 别名路由 (TP6已废弃)
+Route::alias("admin","test_admin/Index"); // 访问路径 admin/read/?id=1
+
+// 资源路由
+// 自动提供以下方法
+// GET      : blog(index) blog/create blog/read/:id(blog/read) edit/:id/edit(blog/edit)
+// POST     : blog(blog/save)
+// PUT      : blog/:id(blog/update)
+// DELETE   : blog/:id(blog/delete)
+
+//Route::rest(["create" => ["GET","/add/:id","create"]]);
+
+Route::resource("blog",'index/Blog')
+//    ->vars(["blog"=>"blog_id"]) // 默认传值为id,可使用 vars 更改,方法中的变量名需一致
+//    ->only(["index","save","create"]) // 限定可使用的资源方法
+//    ->except(["index","save","create"]) // 限定不可被使用的资源方法
+//        修改系统默认方法
+//    ->rest('create',["GET","/add/:id","create"]) // 单个
+    ->rest(["create" => ["GET","/add/:id","create"]]) // 多个
+;
+
+Route::resource("blog.comment","index/Comment");
+
+
 return [
 
 ];

@@ -6,3 +6,10 @@
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteRule ^(.*)$ index.php/$1 [QSA,PT,L]
 </IfModule>
+
+location /public/ {
+  if (!-e $request_filename) {
+  rewrite  ^/public/(.*)$  /public/index.php?s=/$1  last;
+  break;
+   }
+}
