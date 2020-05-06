@@ -186,8 +186,28 @@ Route::resource("blog",'index/Blog')
     ->rest(["create" => ["GET","/add/:id","create"]]) // 多个
 ;
 
-Route::resource("blog.comment","index/Comment");
+// 嵌套路由
+// 默认生成规则 blog/:blog_id/comment/:id
+Route::resource("blog.comment","index/Comment")
+    ->vars(['blog'=>"blog_id"]) // 可通过 vars 更改默认传入变量名,方法中的变量名需一致
+;
 
+// 域名路由
+// 数组形式
+//Route::domain('news.localhost',["edit/:id"=>"collect/Index/edit"]);
+// 闭包形式
+Route::domain(['news.localhost','www.localhost'],function(){
+    Route::get("edit/:id","collect/Index/edit");
+});
+// 链式调用
+//Route::get("edit/:id","collect/Index/edit")
+//    ->domain('news.localhost')
+//    ->option("domain",'www.localhost')
+;
+
+
+//Route::get("bc","index/Blog/create");
+Route::get("br/:id","index/Blog/read");
 
 return [
 

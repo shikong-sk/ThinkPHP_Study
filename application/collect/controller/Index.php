@@ -5,6 +5,7 @@ namespace app\collect\controller;
 
 
 use think\Controller;
+use think\facade\Url;
 
 /**
  * Class Index
@@ -14,7 +15,16 @@ use think\Controller;
 class Index extends Controller
 {
     public function index(){
-        return "index";
+//        return "index";
+//        return Url::build("index/Blog/create");
+//        return Url::build("index/Blog/read","id=5");
+//        return Url::build("index/Blog/read",["id"=>5]);
+//        return Url::build("index/Blog/read",["id"=>5],"");
+
+//        指定根路径
+//        Url::root('/public/index.php');
+
+        return Url::build("index/Blog/read",["id"=>5],"");
     }
 
 
@@ -42,5 +52,9 @@ class Index extends Controller
     public function miss()
     {
         return "col miss";
+    }
+
+    public function edit($id){
+        return "col edit $id";
     }
 }
