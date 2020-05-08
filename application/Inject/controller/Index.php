@@ -22,10 +22,21 @@ namespace app\Inject\controller;
 //use app\common\Test;
 
 use app\facade\Test;
+use think\Controller;
 use think\facade\Hook;
 
-class Index
+class Index extends Controller
 {
+
+//    控制器中间件
+//    protected $middleware = ['Check']; // 对所有方法生效
+    protected $middleware = [
+        "Check:controller" => [     // 传值
+//            "only" => ["index"], // 只对指定方法生效
+            "except" => ["read"], // 只对指定方法不生效
+        ],
+    ];
+
     public function index()
     {
 //        bind('inject',"app\Inject\controller\inject");
@@ -53,14 +64,21 @@ class Index
         return $inject->name;
     }
 
-    public function test(){
+    public function test()
+    {
 //        $test = new Test();
 //        return $test->hello("shikong");
 
         return Test::hello("shikong");
     }
 
-    public function behavior(){
-        Hook::listen("test","test 钩子");
+    public function behavior()
+    {
+        Hook::listen("test", "test 钩子");
+    }
+
+    public function read($id)
+    {
+        return "read $id";
     }
 }
