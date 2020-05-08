@@ -23,7 +23,10 @@ namespace app\Inject\controller;
 
 use app\facade\Test;
 use think\Controller;
+use think\exception\ErrorException;
+use think\exception\HttpException;
 use think\facade\Hook;
+use think\facade\Log;
 
 class Index extends Controller
 {
@@ -32,10 +35,34 @@ class Index extends Controller
 //    protected $middleware = ['Check']; // 对所有方法生效
     protected $middleware = [
         "Check:controller" => [     // 传值
-//            "only" => ["index"], // 只对指定方法生效
-            "except" => ["read"], // 只对指定方法不生效
+            "only" => ["index"], // 只对指定方法生效
+//            "except" => ["read"], // 只对指定方法不生效
         ],
     ];
+
+    public function expection()
+    {
+//        echo env("think_path");
+//        echo env("app_path");
+
+//        return 0/0;
+
+//        throw new \Exception('测试异常',10086);
+
+        try {
+            return 0 / 0;
+        } catch (ErrorException $e) {
+            echo $e->getMessage();
+
+//            Log::record($e->getMessage() . " : 被除数不能为0",'error');
+            trace($e->getMessage() . " : 被除数不能为0",'error');
+        }
+
+//        throw new HttpException(500,"HTTP 异常测试");
+        abort(500,"Http 异常测试");
+
+
+    }
 
     public function index()
     {

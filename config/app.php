@@ -143,4 +143,10 @@ return [
     // 异常处理handle类 留空使用 \think\exception\Handle
     'exception_handle'       => '',
 
+
+    // 自定义 http 错误模板地址
+    'http_exception_template' => [
+        500 => \think\facade\Env::get('app_path') . 'exception/500.html',
+    ]
+
 ];

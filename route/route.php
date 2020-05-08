@@ -139,6 +139,7 @@ Route::controller("sh","short/Index");
 // MISS 路由
 // 全局
 //Route::miss('error/miss');
+
 // 分组 路由
 Route::group(
     'col2',
@@ -225,6 +226,23 @@ Route::get("read/:id","inject/index/read")
     ->middleware([
         ['Check','array route']
     ]) // 数组传值
+;
+
+// 路由验证
+//Route::get('vRead/:id','verify/Index/read')
+//    ->validate(\app\common\validate\Test2::class,'insert')
+////    ->validate(\app\common\validate\Test2::class,'update')
+//;
+Route::get('vRead/:id','verify/Index/read')
+    ->validate([
+        'id' => 'number|between:1,10',
+        'email' => 'email'
+    ],
+        'update',  // 场景
+        [                 // 错误信息
+        'id.number' => 'id 必须为数字'
+    ],
+    true) // 批量验证
 ;
 
 return [

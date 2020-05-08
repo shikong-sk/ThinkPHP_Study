@@ -13,6 +13,8 @@
 
 use think\Facade;
 
+//error_reporting(0);
+
 // 单一绑定
 //Facade::bind('app\facade\Test','app\common\Test');
 
