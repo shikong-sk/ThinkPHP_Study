@@ -3657,3 +3657,3803 @@
   'id' => '55',
 )
 [ error ] [0]id只能在 1 - 10 之间[C:\#ThinkPhp\thinkphp5\thinkphp\library\think\route\Dispatch.php:257]
+---------------------------------------------------------------
+
+[2020-05-09T02:26:47+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.105369s] [吞吐率：9.49req/s] [内存消耗：2,551.38kb] [文件加载：92]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:28:08+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.048708s] [吞吐率：20.53req/s] [内存消耗：2,554.61kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:28:10+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.051435s] [吞吐率：19.44req/s] [内存消耗：2,554.61kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:28:16+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.056323s] [吞吐率：17.75req/s] [内存消耗：2,554.61kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:28:22+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.052456s] [吞吐率：19.06req/s] [内存消耗：2,554.20kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:28:22+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.053470s] [吞吐率：18.70req/s] [内存消耗：2,554.20kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:28:23+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.055093s] [吞吐率：18.15req/s] [内存消耗：2,554.20kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:28:23+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.049673s] [吞吐率：20.13req/s] [内存消耗：2,554.20kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:29:14+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.057694s] [吞吐率：17.33req/s] [内存消耗：2,554.17kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:29:15+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.047744s] [吞吐率：20.95req/s] [内存消耗：2,554.17kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:29:15+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.053271s] [吞吐率：18.77req/s] [内存消耗：2,554.17kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:29:16+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.049345s] [吞吐率：20.27req/s] [内存消耗：2,554.17kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:29:18+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.050033s] [吞吐率：19.99req/s] [内存消耗：2,554.17kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:29:39+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.067329s] [吞吐率：14.85req/s] [内存消耗：2,554.17kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:29:40+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.049015s] [吞吐率：20.40req/s] [内存消耗：2,554.17kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:29:40+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.050025s] [吞吐率：19.99req/s] [内存消耗：2,554.17kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:29:40+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.053313s] [吞吐率：18.76req/s] [内存消耗：2,554.17kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:29:40+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.057604s] [吞吐率：17.36req/s] [内存消耗：2,554.17kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:29:44+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.065779s] [吞吐率：15.20req/s] [内存消耗：2,554.20kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:29:45+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.060086s] [吞吐率：16.64req/s] [内存消耗：2,554.20kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:29:45+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.055135s] [吞吐率：18.14req/s] [内存消耗：2,554.20kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:29:45+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.042804s] [吞吐率：23.36req/s] [内存消耗：2,554.20kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:29:45+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.085883s] [吞吐率：11.64req/s] [内存消耗：2,554.20kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:29:46+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.059159s] [吞吐率：16.90req/s] [内存消耗：2,554.20kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:29:46+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.057452s] [吞吐率：17.41req/s] [内存消耗：2,554.20kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:29:46+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.049416s] [吞吐率：20.24req/s] [内存消耗：2,554.20kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:29:48+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.054610s] [吞吐率：18.31req/s] [内存消耗：2,554.20kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:29:48+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.063610s] [吞吐率：15.72req/s] [内存消耗：2,554.20kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:29:48+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.081416s] [吞吐率：12.28req/s] [内存消耗：2,554.20kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:29:49+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.064598s] [吞吐率：15.48req/s] [内存消耗：2,554.20kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:29:49+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.060251s] [吞吐率：16.60req/s] [内存消耗：2,554.20kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:29:49+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.058308s] [吞吐率：17.15req/s] [内存消耗：2,554.20kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:29:52+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.065311s] [吞吐率：15.31req/s] [内存消耗：2,554.20kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:32:58+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.076330s] [吞吐率：13.10req/s] [内存消耗：2,554.20kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:33:04+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.039293s] [吞吐率：25.45req/s] [内存消耗：2,007.81kb] [文件加载：79]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ error ] [0]语法解析错误: syntax error, unexpected 'b' (T_STRING), expecting ')'[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:98]
+---------------------------------------------------------------
+
+[2020-05-09T02:33:12+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.048031s] [吞吐率：20.82req/s] [内存消耗：2,554.23kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:33:16+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.044075s] [吞吐率：22.69req/s] [内存消耗：2,554.23kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:33:27+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.051118s] [吞吐率：19.56req/s] [内存消耗：2,554.23kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:33:27+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.051257s] [吞吐率：19.51req/s] [内存消耗：2,554.23kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:34:46+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.056264s] [吞吐率：17.77req/s] [内存消耗：2,569.64kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:34:47+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.051114s] [吞吐率：19.56req/s] [内存消耗：2,569.64kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:34:47+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.053625s] [吞吐率：18.65req/s] [内存消耗：2,569.64kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:34:47+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/facade
+[运行时间：0.051565s] [吞吐率：19.39req/s] [内存消耗：2,569.64kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:37:17+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.066455s] [吞吐率：15.05req/s] [内存消耗：2,465.63kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]模板文件不存在:C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html[C:\#ThinkPhp\thinkphp5\thinkphp\library\think\view\driver\Think.php:86]
+---------------------------------------------------------------
+
+[2020-05-09T02:39:27+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.067099s] [吞吐率：14.90req/s] [内存消耗：2,543.58kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:39:29+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/verify/checktoken?
+[运行时间：0.049319s] [吞吐率：20.28req/s] [内存消耗：2,459.54kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:7788/public/verify/index/token',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:39:50+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/verify/checktoken?
+[运行时间：0.060444s] [吞吐率：16.54req/s] [内存消耗：2,459.54kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:7788/public/verify/index/token',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:39:55+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.062145s] [吞吐率：16.09req/s] [内存消耗：2,543.67kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:39:55+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.054014s] [吞吐率：18.51req/s] [内存消耗：2,418.05kb] [文件加载：92]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:39:56+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/checktoken?
+[运行时间：0.065431s] [吞吐率：15.28req/s] [内存消耗：2,457.59kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:7788/public/verify/index/token',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:40:55+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.073256s] [吞吐率：13.65req/s] [内存消耗：2,543.99kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:41:28+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.080341s] [吞吐率：12.45req/s] [内存消耗：2,543.99kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:41:29+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.053746s] [吞吐率：18.61req/s] [内存消耗：2,418.24kb] [文件加载：92]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:41:29+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.058635s] [吞吐率：17.05req/s] [内存消耗：2,418.24kb] [文件加载：92]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:41:29+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.064798s] [吞吐率：15.43req/s] [内存消耗：2,418.24kb] [文件加载：92]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:41:30+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.072075s] [吞吐率：13.87req/s] [内存消耗：2,418.24kb] [文件加载：92]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:41:30+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.065947s] [吞吐率：15.16req/s] [内存消耗：2,418.24kb] [文件加载：92]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:41:30+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.056198s] [吞吐率：17.79req/s] [内存消耗：2,418.24kb] [文件加载：92]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:41:30+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.079851s] [吞吐率：12.52req/s] [内存消耗：2,418.24kb] [文件加载：92]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:41:30+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.066720s] [吞吐率：14.99req/s] [内存消耗：2,418.24kb] [文件加载：92]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:41:30+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.057143s] [吞吐率：17.50req/s] [内存消耗：2,418.24kb] [文件加载：92]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:41:31+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.067731s] [吞吐率：14.76req/s] [内存消耗：2,418.24kb] [文件加载：92]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:41:31+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.062980s] [吞吐率：15.88req/s] [内存消耗：2,418.24kb] [文件加载：92]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:41:31+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.071760s] [吞吐率：13.94req/s] [内存消耗：2,418.24kb] [文件加载：92]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:42:03+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.087636s] [吞吐率：11.41req/s] [内存消耗：2,544.18kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:42:14+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.065712s] [吞吐率：15.22req/s] [内存消耗：2,549.06kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:43:05+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.045643s] [吞吐率：21.91req/s] [内存消耗：2,549.19kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:43:36+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.046862s] [吞吐率：21.34req/s] [内存消耗：2,422.59kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:43:37+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.038064s] [吞吐率：26.27req/s] [内存消耗：2,422.59kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:43:38+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.036118s] [吞吐率：27.69req/s] [内存消耗：2,422.59kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:43:38+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.040428s] [吞吐率：24.74req/s] [内存消耗：2,422.59kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:43:38+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.036276s] [吞吐率：27.57req/s] [内存消耗：2,422.59kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:43:38+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.037152s] [吞吐率：26.92req/s] [内存消耗：2,422.59kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:43:38+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.036423s] [吞吐率：27.46req/s] [内存消耗：2,422.59kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:43:38+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.037862s] [吞吐率：26.41req/s] [内存消耗：2,422.59kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:43:39+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.037186s] [吞吐率：26.89req/s] [内存消耗：2,422.59kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:43:39+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.036104s] [吞吐率：27.70req/s] [内存消耗：2,422.59kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:43:39+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.035599s] [吞吐率：28.09req/s] [内存消耗：2,422.59kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:43:39+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.036264s] [吞吐率：27.58req/s] [内存消耗：2,422.59kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:43:39+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.036673s] [吞吐率：27.27req/s] [内存消耗：2,422.59kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:43:46+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.038846s] [吞吐率：25.74req/s] [内存消耗：2,462.16kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:00+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.039393s] [吞吐率：25.39req/s] [内存消耗：2,462.16kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:01+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.044330s] [吞吐率：22.56req/s] [内存消耗：2,462.16kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:01+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.038964s] [吞吐率：25.66req/s] [内存消耗：2,462.16kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:01+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.040113s] [吞吐率：24.93req/s] [内存消耗：2,462.16kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:02+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.039879s] [吞吐率：25.08req/s] [内存消耗：2,462.16kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:02+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.038826s] [吞吐率：25.76req/s] [内存消耗：2,462.16kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:02+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.040190s] [吞吐率：24.88req/s] [内存消耗：2,462.16kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:16+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.038849s] [吞吐率：25.74req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:16+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.038169s] [吞吐率：26.20req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:17+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.038501s] [吞吐率：25.97req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:17+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.039079s] [吞吐率：25.59req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:41+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.042967s] [吞吐率：23.27req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:42+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.043342s] [吞吐率：23.07req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:43+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.040775s] [吞吐率：24.52req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:43+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.043567s] [吞吐率：22.95req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:43+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.055656s] [吞吐率：17.97req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:43+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.055226s] [吞吐率：18.11req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:44+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.050824s] [吞吐率：19.68req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:44+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.048804s] [吞吐率：20.49req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:44+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.043438s] [吞吐率：23.02req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:44+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.044931s] [吞吐率：22.26req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:44+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.044506s] [吞吐率：22.47req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:45+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.037781s] [吞吐率：26.47req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:45+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.048677s] [吞吐率：20.54req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:45+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.042640s] [吞吐率：23.45req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:45+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.043322s] [吞吐率：23.08req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:45+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.045309s] [吞吐率：22.07req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:46+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.049067s] [吞吐率：20.38req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:46+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.048453s] [吞吐率：20.64req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:47+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.046246s] [吞吐率：21.62req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:47+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.049013s] [吞吐率：20.40req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:47+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.061806s] [吞吐率：16.18req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:48+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.051494s] [吞吐率：19.42req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:48+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.051017s] [吞吐率：19.60req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:48+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.065261s] [吞吐率：15.32req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:48+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.055311s] [吞吐率：18.08req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:48+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.055948s] [吞吐率：17.87req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:48+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.056008s] [吞吐率：17.85req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:49+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.052369s] [吞吐率：19.10req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:49+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.059544s] [吞吐率：16.79req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:49+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.057137s] [吞吐率：17.50req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:49+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.059198s] [吞吐率：16.89req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:49+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.051417s] [吞吐率：19.45req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:49+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.054757s] [吞吐率：18.26req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:50+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.061602s] [吞吐率：16.23req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:50+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.063421s] [吞吐率：15.77req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:50+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.050123s] [吞吐率：19.95req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:50+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.049370s] [吞吐率：20.26req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:50+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.062324s] [吞吐率：16.05req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:44:51+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.046540s] [吞吐率：21.49req/s] [内存消耗：2,462.22kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: _SESSION[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:104]
+---------------------------------------------------------------
+
+[2020-05-09T02:45:02+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.041813s] [吞吐率：23.92req/s] [内存消耗：2,551.92kb] [文件加载：96]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:46:23+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.037976s] [吞吐率：26.33req/s] [内存消耗：2,007.78kb] [文件加载：79]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ error ] [0]语法解析错误: syntax error, unexpected ';', expecting ']'[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:111]
+---------------------------------------------------------------
+
+[2020-05-09T02:46:24+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.034726s] [吞吐率：28.80req/s] [内存消耗：2,007.78kb] [文件加载：79]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ error ] [0]语法解析错误: syntax error, unexpected ';', expecting ']'[C:\#ThinkPhp\thinkphp5\application\verify\controller\Index.php:111]
+---------------------------------------------------------------
+
+[2020-05-09T02:46:36+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.042700s] [吞吐率：23.42req/s] [内存消耗：2,552.54kb] [文件加载：96]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:46:37+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.060824s] [吞吐率：16.44req/s] [内存消耗：2,425.67kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:46:37+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.062288s] [吞吐率：16.05req/s] [内存消耗：2,425.67kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:46:38+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.061621s] [吞吐率：16.23req/s] [内存消耗：2,425.67kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:46:40+08:00] 127.0.0.1 POST 127.0.0.1:7788/public/verify/index/checktoken
+[运行时间：0.063746s] [吞吐率：15.69req/s] [内存消耗：2,392.78kb] [文件加载：91]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:7788/public/verify/index/token',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:7788',
+  'cache-control' => 'max-age=0',
+  'content-length' => '51',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '6c3ebf24e61d209a5e40483dbda191f8',
+  'user' => '123',
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:48:40+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.049228s] [吞吐率：20.31req/s] [内存消耗：2,553.59kb] [文件加载：96]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:48:41+08:00] 127.0.0.1 POST 127.0.0.1:7788/public/verify/index/checkToken
+[运行时间：0.037498s] [吞吐率：26.67req/s] [内存消耗：2,539.34kb] [文件加载：91]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:7788/public/verify/index/token',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:7788',
+  'cache-control' => 'max-age=0',
+  'content-length' => '48',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => 'f9fb121c31ddbdcd4eb863d2d73333b8',
+  'user' => '',
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:48:45+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.039958s] [吞吐率：25.03req/s] [内存消耗：2,426.72kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:49:00+08:00] 127.0.0.1 POST 127.0.0.1:7788/public/verify/index/checkToken
+[运行时间：0.035040s] [吞吐率：28.54req/s] [内存消耗：2,539.34kb] [文件加载：91]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:7788/public/verify/index/token',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:7788',
+  'cache-control' => 'max-age=0',
+  'content-length' => '48',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '8b044b04a3cb256e6c56f9e09fcb41ba',
+  'user' => '',
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:49:02+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.039836s] [吞吐率：25.10req/s] [内存消耗：2,426.72kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:49:03+08:00] 127.0.0.1 POST 127.0.0.1:7788/public/verify/index/checkToken
+[运行时间：0.039888s] [吞吐率：25.07req/s] [内存消耗：2,539.34kb] [文件加载：91]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:7788/public/verify/index/token',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:7788',
+  'cache-control' => 'max-age=0',
+  'content-length' => '48',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => 'c94ebc16fb08202659b16e81fc511e54',
+  'user' => '',
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:49:04+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.041410s] [吞吐率：24.15req/s] [内存消耗：2,426.72kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:49:19+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.040722s] [吞吐率：24.56req/s] [内存消耗：2,553.70kb] [文件加载：96]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:49:19+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.038338s] [吞吐率：26.08req/s] [内存消耗：2,426.92kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:49:20+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.038388s] [吞吐率：26.05req/s] [内存消耗：2,426.92kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:49:20+08:00] 127.0.0.1 POST 127.0.0.1:7788/public/verify/index/checkToken
+[运行时间：0.037910s] [吞吐率：26.38req/s] [内存消耗：2,541.89kb] [文件加载：92]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:7788/public/verify/index/token',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:7788',
+  'cache-control' => 'max-age=0',
+  'content-length' => '48',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '7fd57aaac6263e64403f962943c9ba63',
+  'user' => '',
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:50:46+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.068630s] [吞吐率：14.57req/s] [内存消耗：2,427.03kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:50:48+08:00] 127.0.0.1 POST 127.0.0.1:7788/public/verify/index/checkToken
+[运行时间：0.054561s] [吞吐率：18.33req/s] [内存消耗：2,542.20kb] [文件加载：92]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:7788/public/verify/index/token',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:7788',
+  'cache-control' => 'max-age=0',
+  'content-length' => '48',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => 'c6a57a46fe7ba7e3fcabe9f89bce7fe8',
+  'user' => '',
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:50:49+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.048775s] [吞吐率：20.50req/s] [内存消耗：2,427.03kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:50:52+08:00] 127.0.0.1 POST 127.0.0.1:7788/public/verify/index/checkToken
+[运行时间：0.044331s] [吞吐率：22.56req/s] [内存消耗：2,541.31kb] [文件加载：91]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:7788/public/verify/index/token',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:7788',
+  'cache-control' => 'max-age=0',
+  'content-length' => '54',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => 'adca89f34bc6e45527ab817fe48ec45c',
+  'user' => '123123',
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:50:54+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.037193s] [吞吐率：26.89req/s] [内存消耗：2,426.98kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:50:58+08:00] 127.0.0.1 POST 127.0.0.1:7788/public/verify/index/checkToken
+[运行时间：0.040274s] [吞吐率：24.83req/s] [内存消耗：2,542.45kb] [文件加载：92]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:7788/public/verify/index/token',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:7788',
+  'cache-control' => 'max-age=0',
+  'content-length' => '54',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '86230933147903c3d0424d54582dc720',
+  'user' => '123123',
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:51:03+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.039549s] [吞吐率：25.29req/s] [内存消耗：2,427.03kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:51:04+08:00] 127.0.0.1 POST 127.0.0.1:7788/public/verify/index/checkToken
+[运行时间：0.037624s] [吞吐率：26.58req/s] [内存消耗：2,541.31kb] [文件加载：91]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:7788/public/verify/index/token',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:7788',
+  'cache-control' => 'max-age=0',
+  'content-length' => '54',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => 'f771b4e22fd38018e9cbca014ba4a631',
+  'user' => '123123',
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:51:52+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.056118s] [吞吐率：17.82req/s] [内存消耗：2,426.98kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:52:00+08:00] 127.0.0.1 POST 127.0.0.1:7788/public/verify/index/checkToken
+[运行时间：0.040772s] [吞吐率：24.53req/s] [内存消耗：2,541.90kb] [文件加载：92]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:7788/public/verify/index/token',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:7788',
+  'cache-control' => 'max-age=0',
+  'content-length' => '48',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => 'aafe4b2ff05e91d7d7a50957c25a27d5',
+  'user' => '',
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:52:02+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.041336s] [吞吐率：24.19req/s] [内存消耗：2,426.73kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:52:03+08:00] 127.0.0.1 POST 127.0.0.1:7788/public/verify/index/checkToken
+[运行时间：0.039707s] [吞吐率：25.18req/s] [内存消耗：2,541.90kb] [文件加载：92]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:7788/public/verify/index/token',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:7788',
+  'cache-control' => 'max-age=0',
+  'content-length' => '48',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => 'b6452254916f20f695ec940df0929ff7',
+  'user' => '',
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:52:04+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.038080s] [吞吐率：26.26req/s] [内存消耗：2,426.73kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:52:06+08:00] 127.0.0.1 POST 127.0.0.1:7788/public/verify/index/checkToken
+[运行时间：0.041335s] [吞吐率：24.19req/s] [内存消耗：2,541.90kb] [文件加载：92]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:7788/public/verify/index/token',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:7788',
+  'cache-control' => 'max-age=0',
+  'content-length' => '49',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '0fae4bbb1fbd93cd96e79b79a494a9e6',
+  'user' => '1',
+)
+---------------------------------------------------------------
+
+[2020-05-09T02:52:35+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/verify/index/token
+[运行时间：0.038627s] [吞吐率：25.89req/s] [内存消耗：2,427.07kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\#ThinkPhp\thinkphp5\application\verify\view\index\token.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-05-09T02:52:36+08:00] 127.0.0.1 POST 127.0.0.1:7788/public/verify/index/checkToken
+[运行时间：0.038565s] [吞吐率：25.93req/s] [内存消耗：2,557.23kb] [文件加载：91]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:7788/public/verify/index/token',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:7788',
+  'cache-control' => 'max-age=0',
+  'content-length' => '49',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '95d5cd85cf1ec828170575fd932c259e',
+  'user' => '1',
+)

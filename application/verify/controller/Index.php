@@ -6,8 +6,10 @@ namespace app\verify\controller;
 
 use app\common\validate\Test;
 use think\Controller;
+use think\facade\Session;
 use think\Validate;
 use think\validate\ValidateRule;
+use think\facade\Validate as FValidate;
 
 class Index extends Controller
 {
@@ -89,6 +91,38 @@ class Index extends Controller
     }
 
     public function facade(){
+        // 静态方法不抛出错误 只返回 true 和 false 需要自行处理
+//        dump(FValidate::isEmail('skskcks.cn'));
+//        dump(FValidate::isRequire(''));
+//        dump(FValidate::isNumber('10b'));
 
+        // 支持多规则验证
+//        dump(FValidate::checkRule('11','number|between:1,10'));
+        dump(FValidate::checkRule('11',ValidateRule::isNumber()->between('1,10')));
+    }
+
+    public function token(){
+        dump(Session::get());
+        return $this->fetch('token');
+    }
+
+    public function checkToken(){
+        $data = [
+            'user' => input('post.user'),
+            '__token__' => input('post.__token__')
+        ];
+
+//        dump($data);
+        $validate = new Validate();
+        $validate->rule([
+            'user' => 'require|token'
+        ]);
+
+        if(!$validate->batch()->check($data)){
+            dump($validate->getError());
+        }
+        else{
+            return '验证通过';
+        }
     }
 }
