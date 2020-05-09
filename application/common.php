@@ -22,3 +22,15 @@ use think\Facade;
 Facade::bind([
     'app\facade\Test' => 'app\common\Test'
 ]);
+
+
+
+// 允许使用的语言列表
+\think\facade\Lang::setAllowLangList([
+    'zh-cn',
+    'en-us',
+]);
+
+// 通过 Cookie 切换语言
+//\think\facade\Cookie::prefix('think_');
+//\think\facade\Cookie::set('var','zh-cn');

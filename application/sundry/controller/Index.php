@@ -5,8 +5,10 @@ namespace app\sundry\controller;
 
 
 use think\facade\Cookie;
+use think\facade\Lang;
 use think\facade\Request;
 use think\facade\Session;
+
 
 class Index
 {
@@ -96,5 +98,14 @@ class Index
 
         dump(Cookie::get('',''));
 
+    }
+
+    public function error(){
+
+        // lang 默认目录 applacition/lang
+        // 若不在默认目录下可用 Load 加载语言文件
+        echo Lang::get('require_name');
+        echo "<br> \n";
+        echo Lang::get('email_error');
     }
 }
