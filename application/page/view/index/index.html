@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <th>学号</th>
+        <th>姓名</th>
+        <th>性别</th>
+        <th>院系</th>
+        <th>专业</th>
+        <th>班级编号</th>
+        <th>座号</th>
+    </tr>
+
+    {volist name="$data" id="obj"}
+    <tr>
+        <td>{$obj.studentId}</td>
+        <td>{$obj.studentName}</td>
+        <td>{$obj.gender}</td>
+        <td>{$obj.departmentName}</td>
+        <td>{$obj.majorName}</td>
+        <td>{$obj.classId}</td>
+        <td>{$obj.seat}</td>
+    </tr>
+    {/volist}
+</table>
+
+<style>
+    .pagination,.pager{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .pagination li,.pager li{
+        display: inline-block;
+        padding: 10px;
+    }
+</style>
+
+{$data|raw}
+<hr>
+{//$page|raw}
+</body>
+</html>
