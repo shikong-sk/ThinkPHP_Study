@@ -23159,3 +23159,2335 @@
 )
 [ info ] [ PARAM ] array (
 )
+---------------------------------------------------------------
+
+[2020-05-09T23:33:05+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.037085s] [吞吐率：26.97req/s] [内存消耗：2,415.70kb] [文件加载：91]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:33:31+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.036444s] [吞吐率：27.44req/s] [内存消耗：2,482.34kb] [文件加载：95]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]variable type error： array[C:\#ThinkPhp\thinkphp5\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-05-09T23:33:49+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.036120s] [吞吐率：27.69req/s] [内存消耗：2,422.24kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:35:55+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.042110s] [吞吐率：23.75req/s] [内存消耗：2,423.45kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:35:57+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033110s] [吞吐率：30.20req/s] [内存消耗：2,423.52kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:36:19+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033536s] [吞吐率：29.82req/s] [内存消耗：2,423.52kb] [文件加载：93]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:37:28+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.035696s] [吞吐率：28.01req/s] [内存消耗：2,433.07kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:38:17+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.040390s] [吞吐率：24.76req/s] [内存消耗：2,433.57kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:38:24+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033530s] [吞吐率：29.82req/s] [内存消耗：2,433.57kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:38:39+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.042304s] [吞吐率：23.64req/s] [内存消耗：2,433.82kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:38:44+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033074s] [吞吐率：30.24req/s] [内存消耗：2,433.82kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:38:47+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.032812s] [吞吐率：30.48req/s] [内存消耗：2,433.82kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:39:38+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.036017s] [吞吐率：27.76req/s] [内存消耗：2,434.07kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:40:15+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033602s] [吞吐率：29.76req/s] [内存消耗：2,434.94kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:40:44+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.039407s] [吞吐率：25.38req/s] [内存消耗：2,435.41kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:40:55+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.034203s] [吞吐率：29.24req/s] [内存消耗：2,435.45kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:42:41+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.036158s] [吞吐率：27.66req/s] [内存消耗：2,435.05kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:45:06+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.043244s] [吞吐率：23.12req/s] [内存消耗：2,436.04kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:47:54+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.040737s] [吞吐率：24.55req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:47:55+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.034569s] [吞吐率：28.93req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:47:56+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033499s] [吞吐率：29.85req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:47:56+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033379s] [吞吐率：29.96req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:47:56+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033249s] [吞吐率：30.08req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:47:56+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.035523s] [吞吐率：28.15req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:47:56+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.034235s] [吞吐率：29.21req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:47:56+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.034383s] [吞吐率：29.08req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:47:56+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033999s] [吞吐率：29.41req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:47:57+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033653s] [吞吐率：29.72req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:47:57+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.034542s] [吞吐率：28.95req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:47:57+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033416s] [吞吐率：29.93req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:47:57+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.034536s] [吞吐率：28.96req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:47:57+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.034462s] [吞吐率：29.02req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:47:57+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033372s] [吞吐率：29.97req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:47:58+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.035349s] [吞吐率：28.29req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:47:58+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.032809s] [吞吐率：30.48req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:47:58+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033476s] [吞吐率：29.87req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:47:58+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033148s] [吞吐率：30.17req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:47:58+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033651s] [吞吐率：29.72req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:47:58+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.042419s] [吞吐率：23.57req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:47:59+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033571s] [吞吐率：29.79req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:47:59+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.035098s] [吞吐率：28.49req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:47:59+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033992s] [吞吐率：29.42req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:47:59+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033427s] [吞吐率：29.92req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:47:59+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033994s] [吞吐率：29.42req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:47:59+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033689s] [吞吐率：29.68req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:47:59+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.031708s] [吞吐率：31.54req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:00+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.040422s] [吞吐率：24.74req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:00+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.032917s] [吞吐率：30.38req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:00+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033950s] [吞吐率：29.46req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:00+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033396s] [吞吐率：29.94req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:00+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.035580s] [吞吐率：28.11req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:00+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.046242s] [吞吐率：21.63req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:01+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033912s] [吞吐率：29.49req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:01+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.034187s] [吞吐率：29.25req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:01+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.035326s] [吞吐率：28.31req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:01+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.032065s] [吞吐率：31.19req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:01+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.032943s] [吞吐率：30.36req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:01+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033526s] [吞吐率：29.83req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:01+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.038927s] [吞吐率：25.69req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:02+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.034189s] [吞吐率：29.25req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:02+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033274s] [吞吐率：30.05req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:02+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033541s] [吞吐率：29.81req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:02+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.032505s] [吞吐率：30.76req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:03+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033350s] [吞吐率：29.99req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:03+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033454s] [吞吐率：29.89req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:04+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.032805s] [吞吐率：30.48req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:04+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033063s] [吞吐率：30.25req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:05+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033286s] [吞吐率：30.04req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:44+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.040833s] [吞吐率：24.49req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:45+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.041028s] [吞吐率：24.37req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:45+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.045264s] [吞吐率：22.09req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:45+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.048932s] [吞吐率：20.44req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:45+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.058481s] [吞吐率：17.10req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:45+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.063092s] [吞吐率：15.85req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:45+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.059043s] [吞吐率：16.94req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:46+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.091792s] [吞吐率：10.89req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:46+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.050634s] [吞吐率：19.75req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:46+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.050651s] [吞吐率：19.74req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:46+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.044050s] [吞吐率：22.70req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:47+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.037377s] [吞吐率：26.75req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:47+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.040162s] [吞吐率：24.90req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:48+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.037657s] [吞吐率：26.56req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:48+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.047326s] [吞吐率：21.13req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:49+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.037660s] [吞吐率：26.55req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:49+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.038103s] [吞吐率：26.24req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:50+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.041117s] [吞吐率：24.32req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:50+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.042272s] [吞吐率：23.66req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:50+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.047554s] [吞吐率：21.03req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:51+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.039295s] [吞吐率：25.45req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:48:51+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.040611s] [吞吐率：24.62req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:49:10+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033309s] [吞吐率：30.02req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:49:14+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.032862s] [吞吐率：30.43req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:49:15+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.032459s] [吞吐率：30.81req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:49:15+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033613s] [吞吐率：29.75req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:49:15+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.038176s] [吞吐率：26.19req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:49:15+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033274s] [吞吐率：30.05req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:49:15+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.034618s] [吞吐率：28.89req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:49:15+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.037064s] [吞吐率：26.98req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:49:15+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033494s] [吞吐率：29.86req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:49:16+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033451s] [吞吐率：29.89req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:49:16+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033477s] [吞吐率：29.87req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:49:16+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.033566s] [吞吐率：29.79req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:49:16+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.034002s] [吞吐率：29.41req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:49:17+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.034014s] [吞吐率：29.40req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:49:17+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.032846s] [吞吐率：30.45req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-05-09T23:49:17+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/sundry/index/session
+[运行时间：0.035671s] [吞吐率：28.03req/s] [内存消耗：2,436.09kb] [文件加载：94]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
