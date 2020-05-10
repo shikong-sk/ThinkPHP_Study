@@ -116,4 +116,8 @@ class Index extends Controller
     public function test(){
         return $this->fetch('other');
     }
+
+    public function code(){
+        return $this->fetch('code');
+    }
 }
