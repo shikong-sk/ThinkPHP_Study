@@ -46,7 +46,7 @@ class Index extends Controller
 //        $captcha = new Captcha();
         // 传入配置参数
         $captcha = new Captcha($config);
-        return $captcha->entry();
+        return $captcha->entry(1);
     }
 
     public function check(){
@@ -54,7 +54,7 @@ class Index extends Controller
         // 检验验证码
         $captcha = new Captcha();
 
-        dump($captcha->check(Request::post('code')));
+        dump($captcha->check(Request::post('code'),1));
 
 //        dump(captcha_check(Request::post('code')));
     }

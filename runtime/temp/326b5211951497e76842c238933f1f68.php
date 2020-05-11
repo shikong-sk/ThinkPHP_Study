@@ -1,4 +1,4 @@
-<?php /*a:1:{s:60:"C:\#ThinkPhp\thinkphp5\application\view\view\index\code.html";i:1589126436;}*/ ?>
+<?php /*a:1:{s:60:"C:\#ThinkPhp\thinkphp5\application\view\view\index\code.html";i:1589173359;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +11,12 @@
 
 <br>
 
-<!--<div><img src="<?php echo captcha_src(); ?>" alt="captcha"></div>-->
+<div><img src="<?php echo captcha_src(); ?>" alt="captcha"></div>
+<form action="../../code" method="post">
+    <input type="text" name="code">
+    <input type="submit" value="提交">
+</form>
+
 <div><img src="../../code/index/show" alt="captcha"></div>
 
 <!--<form action="../../code" method="post">-->
