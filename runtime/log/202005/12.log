@@ -1,0 +1,2139 @@
+---------------------------------------------------------------
+
+[2020-05-12T00:02:41+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/before
+[运行时间：0.121838s] [吞吐率：8.21req/s] [内存消耗：4,044.96kb] [文件加载：120]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002739s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.007791s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_student` WHERE  `gender` IN ('','男','女')  AND `studentId` IN ('1730502101','1730502127') [ RunTime:0.000579s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_department` [ RunTime:0.007429s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_department` WHERE  `departmentId` = '05' [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_class` [ RunTime:0.006492s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_class` WHERE  `classId` = '17305021' [ RunTime:0.000291s ]
+---------------------------------------------------------------
+
+[2020-05-12T00:02:46+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/count
+[运行时间：0.088829s] [吞吐率：11.26req/s] [内存消耗：4,035.57kb] [文件加载：119]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001321s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_class` [ RunTime:0.006754s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.007055s ]
+[ sql ] [ SQL ] SELECT *,(SELECT COUNT(*) AS tp_count FROM `ms_class` WHERE  ( `classId` =ms_student.classId )) AS `classes_count` FROM `ms_student` WHERE  `gender` IN ('','男','女')  AND `studentId` IN ('1730502101','1730502127') [ RunTime:0.001056s ]
+---------------------------------------------------------------
+
+[2020-05-12T00:03:08+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/count
+[运行时间：0.092209s] [吞吐率：10.84req/s] [内存消耗：4,038.30kb] [文件加载：120]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001586s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_class` [ RunTime:0.009536s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.007821s ]
+[ sql ] [ SQL ] SELECT *,(SELECT COUNT(*) AS tp_count FROM `ms_class` WHERE  ( `classId` =ms_student.classId )) AS `classes_count` FROM `ms_student` WHERE  `gender` IN ('','男','女')  AND `studentId` IN ('1730502101','1730502127') [ RunTime:0.000575s ]
+---------------------------------------------------------------
+
+[2020-05-12T00:04:06+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/count
+[运行时间：0.090468s] [吞吐率：11.05req/s] [内存消耗：4,034.41kb] [文件加载：120]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011563s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.007434s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_department` [ RunTime:0.007479s ]
+[ sql ] [ SQL ] SELECT *,(SELECT COUNT(*) AS tp_count FROM `ms_student` WHERE  `gender` IN ('','男','女')  AND ( `departmentId` =ms_department.departmentId )) AS `student_count` FROM `ms_department` WHERE  `departmentId` IN ('01','05') [ RunTime:0.001591s ]
+---------------------------------------------------------------
+
+[2020-05-12T00:04:29+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/count
+[运行时间：0.070107s] [吞吐率：14.26req/s] [内存消耗：4,034.55kb] [文件加载：120]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000939s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.007030s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_department` [ RunTime:0.007086s ]
+[ sql ] [ SQL ] SELECT *,(SELECT COUNT(*) AS tp_count FROM `ms_student` WHERE  `gender` IN ('','男','女')  AND ( `departmentId` =ms_department.departmentId )) AS `student_count` FROM `ms_department` WHERE  `departmentId` IN ('01','05') [ RunTime:0.000431s ]
+---------------------------------------------------------------
+
+[2020-05-12T00:20:37+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/count
+[运行时间：0.090897s] [吞吐率：11.00req/s] [内存消耗：4,034.86kb] [文件加载：120]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001321s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.008010s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_department` [ RunTime:0.006938s ]
+[ sql ] [ SQL ] SELECT *,(SELECT COUNT(*) AS tp_count FROM `ms_student` WHERE  `gender` IN ('','男','女')  AND ( `departmentId` =ms_department.departmentId )) AS `count` FROM `ms_department` WHERE  `departmentId` IN ('01','05') [ RunTime:0.000654s ]
+---------------------------------------------------------------
+
+[2020-05-12T00:26:24+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/show
+[运行时间：0.074275s] [吞吐率：13.46req/s] [内存消耗：3,839.48kb] [文件加载：116]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [0]method not exist:app\db\model\Student->student[C:\#ThinkPhp\thinkphp5\thinkphp\library\think\db\Query.php:200]
+---------------------------------------------------------------
+
+[2020-05-12T00:26:39+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/show
+[运行时间：0.086524s] [吞吐率：11.56req/s] [内存消耗：4,047.66kb] [文件加载：119]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001798s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_department` [ RunTime:0.006706s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.006990s ]
+[ sql ] [ SQL ] SELECT `department`.`departmentId`,`department`.`departmentName`,`department`.`active`,`student`.`studentId` AS `student__studentId`,`student`.`studentName` AS `student__studentName`,`student`.`gender` AS `student__gender`,`student`.`both` AS `student__both`,`student`.`salt` AS `student__salt`,`student`.`password` AS `student__password`,`student`.`contact` AS `student__contact`,`student`.`grade` AS `student__grade`,`student`.`years` AS `student__years`,`student`.`departmentId` AS `student__departmentId`,`student`.`departmentName` AS `student__departmentName`,`student`.`majorId` AS `student__majorId`,`student`.`majorName` AS `student__majorName`,`student`.`class` AS `student__class`,`student`.`classId` AS `student__classId`,`student`.`seat` AS `student__seat`,`student`.`active` AS `student__active`,`student`.`idCard` AS `student__idCard`,`student`.`address` AS `student__address`,`student`.`studentImg` AS `student__studentImg` FROM `ms_department` `department` INNER JOIN `ms_student` `student` ON `department`.`departmentId`=`student`.`departmentId` WHERE  `department`.`departmentId` IN ('01','05') [ RunTime:0.000765s ]
+---------------------------------------------------------------
+
+[2020-05-12T00:27:40+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/show
+[运行时间：0.077365s] [吞吐率：12.93req/s] [内存消耗：4,047.53kb] [文件加载：119]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001280s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_department` [ RunTime:0.006666s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.006909s ]
+[ sql ] [ SQL ] SELECT `department`.`departmentId`,`department`.`departmentName`,`department`.`active`,`student`.`studentId` AS `student__studentId`,`student`.`studentName` AS `student__studentName`,`student`.`gender` AS `student__gender`,`student`.`both` AS `student__both`,`student`.`salt` AS `student__salt`,`student`.`password` AS `student__password`,`student`.`contact` AS `student__contact`,`student`.`grade` AS `student__grade`,`student`.`years` AS `student__years`,`student`.`departmentId` AS `student__departmentId`,`student`.`departmentName` AS `student__departmentName`,`student`.`majorId` AS `student__majorId`,`student`.`majorName` AS `student__majorName`,`student`.`class` AS `student__class`,`student`.`classId` AS `student__classId`,`student`.`seat` AS `student__seat`,`student`.`active` AS `student__active`,`student`.`idCard` AS `student__idCard`,`student`.`address` AS `student__address`,`student`.`studentImg` AS `student__studentImg` FROM `ms_department` `department` INNER JOIN `ms_student` `student` ON `department`.`departmentId`=`student`.`departmentId` WHERE  `department`.`departmentId` IN ('01','05') [ RunTime:0.000501s ]
+---------------------------------------------------------------
+
+[2020-05-12T00:29:29+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/show
+[运行时间：0.078125s] [吞吐率：12.80req/s] [内存消耗：4,048.16kb] [文件加载：119]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001255s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_department` [ RunTime:0.006345s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.005832s ]
+[ sql ] [ SQL ] SELECT `department`.`departmentId`,`department`.`departmentName`,`department`.`active`,`student`.`studentId` AS `student__studentId`,`student`.`studentName` AS `student__studentName`,`student`.`gender` AS `student__gender`,`student`.`both` AS `student__both`,`student`.`salt` AS `student__salt`,`student`.`password` AS `student__password`,`student`.`contact` AS `student__contact`,`student`.`grade` AS `student__grade`,`student`.`years` AS `student__years`,`student`.`departmentId` AS `student__departmentId`,`student`.`departmentName` AS `student__departmentName`,`student`.`majorId` AS `student__majorId`,`student`.`majorName` AS `student__majorName`,`student`.`class` AS `student__class`,`student`.`classId` AS `student__classId`,`student`.`seat` AS `student__seat`,`student`.`active` AS `student__active`,`student`.`idCard` AS `student__idCard`,`student`.`address` AS `student__address`,`student`.`studentImg` AS `student__studentImg` FROM `ms_department` `department` INNER JOIN `ms_student` `student` ON `department`.`departmentId`=`student`.`departmentId` WHERE  `department`.`departmentId` IN ('01','05') [ RunTime:0.000436s ]
+---------------------------------------------------------------
+
+[2020-05-12T00:30:56+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/show
+[运行时间：0.087735s] [吞吐率：11.40req/s] [内存消耗：4,048.62kb] [文件加载：119]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011098s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_department` [ RunTime:0.006614s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.005616s ]
+[ sql ] [ SQL ] SELECT `department`.`departmentId`,`department`.`departmentName`,`department`.`active`,`student`.`studentId` AS `student__studentId`,`student`.`studentName` AS `student__studentName`,`student`.`gender` AS `student__gender`,`student`.`both` AS `student__both`,`student`.`salt` AS `student__salt`,`student`.`password` AS `student__password`,`student`.`contact` AS `student__contact`,`student`.`grade` AS `student__grade`,`student`.`years` AS `student__years`,`student`.`departmentId` AS `student__departmentId`,`student`.`departmentName` AS `student__departmentName`,`student`.`majorId` AS `student__majorId`,`student`.`majorName` AS `student__majorName`,`student`.`class` AS `student__class`,`student`.`classId` AS `student__classId`,`student`.`seat` AS `student__seat`,`student`.`active` AS `student__active`,`student`.`idCard` AS `student__idCard`,`student`.`address` AS `student__address`,`student`.`studentImg` AS `student__studentImg` FROM `ms_department` `department` INNER JOIN `ms_student` `student` ON `department`.`departmentId`=`student`.`departmentId` WHERE  `department`.`departmentId` IN ('01','05') [ RunTime:0.000357s ]
+---------------------------------------------------------------
+
+[2020-05-12T00:34:07+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/show
+[运行时间：0.087993s] [吞吐率：11.36req/s] [内存消耗：4,048.55kb] [文件加载：119]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001488s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_department` [ RunTime:0.007340s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.007728s ]
+[ sql ] [ SQL ] SELECT `department`.`departmentId`,`department`.`departmentName`,`department`.`active`,`student`.`studentId` AS `student__studentId`,`student`.`studentName` AS `student__studentName`,`student`.`gender` AS `student__gender`,`student`.`both` AS `student__both`,`student`.`salt` AS `student__salt`,`student`.`password` AS `student__password`,`student`.`contact` AS `student__contact`,`student`.`grade` AS `student__grade`,`student`.`years` AS `student__years`,`student`.`departmentId` AS `student__departmentId`,`student`.`departmentName` AS `student__departmentName`,`student`.`majorId` AS `student__majorId`,`student`.`majorName` AS `student__majorName`,`student`.`class` AS `student__class`,`student`.`classId` AS `student__classId`,`student`.`seat` AS `student__seat`,`student`.`active` AS `student__active`,`student`.`idCard` AS `student__idCard`,`student`.`address` AS `student__address`,`student`.`studentImg` AS `student__studentImg` FROM `ms_department` `department` INNER JOIN `ms_student` `student` ON `department`.`departmentId`=`student`.`departmentId` WHERE  `department`.`departmentId` IN ('01','05') [ RunTime:0.000561s ]
+---------------------------------------------------------------
+
+[2020-05-12T00:34:59+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/show
+[运行时间：0.073808s] [吞吐率：13.55req/s] [内存消耗：4,048.63kb] [文件加载：119]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001185s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_department` [ RunTime:0.006766s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.006699s ]
+[ sql ] [ SQL ] SELECT `department`.`departmentId`,`department`.`departmentName`,`department`.`active`,`student`.`studentId` AS `student__studentId`,`student`.`studentName` AS `student__studentName`,`student`.`gender` AS `student__gender`,`student`.`both` AS `student__both`,`student`.`salt` AS `student__salt`,`student`.`password` AS `student__password`,`student`.`contact` AS `student__contact`,`student`.`grade` AS `student__grade`,`student`.`years` AS `student__years`,`student`.`departmentId` AS `student__departmentId`,`student`.`departmentName` AS `student__departmentName`,`student`.`majorId` AS `student__majorId`,`student`.`majorName` AS `student__majorName`,`student`.`class` AS `student__class`,`student`.`classId` AS `student__classId`,`student`.`seat` AS `student__seat`,`student`.`active` AS `student__active`,`student`.`idCard` AS `student__idCard`,`student`.`address` AS `student__address`,`student`.`studentImg` AS `student__studentImg` FROM `ms_department` `department` INNER JOIN `ms_student` `student` ON `department`.`departmentId`=`student`.`departmentId` WHERE  `department`.`departmentId` IN ('01','05') [ RunTime:0.000453s ]
+---------------------------------------------------------------
+
+[2020-05-12T00:36:07+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/show
+[运行时间：0.094387s] [吞吐率：10.59req/s] [内存消耗：4,109.90kb] [文件加载：122]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001201s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_department` [ RunTime:0.006570s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.010707s ]
+[ sql ] [ SQL ] SELECT `department`.`departmentId`,`department`.`departmentName`,`department`.`active`,`student`.`studentId` AS `student__studentId`,`student`.`studentName` AS `student__studentName`,`student`.`gender` AS `student__gender`,`student`.`both` AS `student__both`,`student`.`salt` AS `student__salt`,`student`.`password` AS `student__password`,`student`.`contact` AS `student__contact`,`student`.`grade` AS `student__grade`,`student`.`years` AS `student__years`,`student`.`departmentId` AS `student__departmentId`,`student`.`departmentName` AS `student__departmentName`,`student`.`majorId` AS `student__majorId`,`student`.`majorName` AS `student__majorName`,`student`.`class` AS `student__class`,`student`.`classId` AS `student__classId`,`student`.`seat` AS `student__seat`,`student`.`active` AS `student__active`,`student`.`idCard` AS `student__idCard`,`student`.`address` AS `student__address`,`student`.`studentImg` AS `student__studentImg` FROM `ms_department` `department` INNER JOIN `ms_student` `student` ON `department`.`departmentId`=`student`.`departmentId` WHERE  `department`.`departmentId` IN ('01','05') [ RunTime:0.000447s ]
+[ error ] [0]类的属性不存在:app\db\model\Department->class[C:\#ThinkPhp\thinkphp5\thinkphp\library\think\model\concern\Attribute.php:559]
+---------------------------------------------------------------
+
+[2020-05-12T00:36:16+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/show
+[运行时间：0.084149s] [吞吐率：11.88req/s] [内存消耗：4,109.93kb] [文件加载：122]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001027s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_department` [ RunTime:0.006162s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.006704s ]
+[ sql ] [ SQL ] SELECT `department`.`departmentId`,`department`.`departmentName`,`department`.`active`,`student`.`studentId` AS `student__studentId`,`student`.`studentName` AS `student__studentName`,`student`.`gender` AS `student__gender`,`student`.`both` AS `student__both`,`student`.`salt` AS `student__salt`,`student`.`password` AS `student__password`,`student`.`contact` AS `student__contact`,`student`.`grade` AS `student__grade`,`student`.`years` AS `student__years`,`student`.`departmentId` AS `student__departmentId`,`student`.`departmentName` AS `student__departmentName`,`student`.`majorId` AS `student__majorId`,`student`.`majorName` AS `student__majorName`,`student`.`class` AS `student__class`,`student`.`classId` AS `student__classId`,`student`.`seat` AS `student__seat`,`student`.`active` AS `student__active`,`student`.`idCard` AS `student__idCard`,`student`.`address` AS `student__address`,`student`.`studentImg` AS `student__studentImg` FROM `ms_department` `department` INNER JOIN `ms_student` `student` ON `department`.`departmentId`=`student`.`departmentId` WHERE  `department`.`departmentId` IN ('01','05') [ RunTime:0.000367s ]
+[ error ] [0]类的属性不存在:app\db\model\Department->classes[C:\#ThinkPhp\thinkphp5\thinkphp\library\think\model\concern\Attribute.php:559]
+---------------------------------------------------------------
+
+[2020-05-12T00:36:24+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/show
+[运行时间：0.081286s] [吞吐率：12.30req/s] [内存消耗：4,109.93kb] [文件加载：122]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012114s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_department` [ RunTime:0.007347s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.006519s ]
+[ sql ] [ SQL ] SELECT `department`.`departmentId`,`department`.`departmentName`,`department`.`active`,`student`.`studentId` AS `student__studentId`,`student`.`studentName` AS `student__studentName`,`student`.`gender` AS `student__gender`,`student`.`both` AS `student__both`,`student`.`salt` AS `student__salt`,`student`.`password` AS `student__password`,`student`.`contact` AS `student__contact`,`student`.`grade` AS `student__grade`,`student`.`years` AS `student__years`,`student`.`departmentId` AS `student__departmentId`,`student`.`departmentName` AS `student__departmentName`,`student`.`majorId` AS `student__majorId`,`student`.`majorName` AS `student__majorName`,`student`.`class` AS `student__class`,`student`.`classId` AS `student__classId`,`student`.`seat` AS `student__seat`,`student`.`active` AS `student__active`,`student`.`idCard` AS `student__idCard`,`student`.`address` AS `student__address`,`student`.`studentImg` AS `student__studentImg` FROM `ms_department` `department` INNER JOIN `ms_student` `student` ON `department`.`departmentId`=`student`.`departmentId` WHERE  `department`.`departmentId` IN ('01','05') [ RunTime:0.000440s ]
+[ error ] [0]类的属性不存在:app\db\model\Department->classModel[C:\#ThinkPhp\thinkphp5\thinkphp\library\think\model\concern\Attribute.php:559]
+---------------------------------------------------------------
+
+[2020-05-12T00:37:03+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/show
+[运行时间：0.066286s] [吞吐率：15.09req/s] [内存消耗：4,109.91kb] [文件加载：122]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000974s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_department` [ RunTime:0.006345s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.006364s ]
+[ sql ] [ SQL ] SELECT `department`.`departmentId`,`department`.`departmentName`,`department`.`active`,`student`.`studentId` AS `student__studentId`,`student`.`studentName` AS `student__studentName`,`student`.`gender` AS `student__gender`,`student`.`both` AS `student__both`,`student`.`salt` AS `student__salt`,`student`.`password` AS `student__password`,`student`.`contact` AS `student__contact`,`student`.`grade` AS `student__grade`,`student`.`years` AS `student__years`,`student`.`departmentId` AS `student__departmentId`,`student`.`departmentName` AS `student__departmentName`,`student`.`majorId` AS `student__majorId`,`student`.`majorName` AS `student__majorName`,`student`.`class` AS `student__class`,`student`.`classId` AS `student__classId`,`student`.`seat` AS `student__seat`,`student`.`active` AS `student__active`,`student`.`idCard` AS `student__idCard`,`student`.`address` AS `student__address`,`student`.`studentImg` AS `student__studentImg` FROM `ms_department` `department` INNER JOIN `ms_student` `student` ON `department`.`departmentId`=`student`.`departmentId` WHERE  `department`.`departmentId` IN ('01','05') [ RunTime:0.000403s ]
+[ error ] [0]类的属性不存在:app\db\model\Department->class[C:\#ThinkPhp\thinkphp5\thinkphp\library\think\model\concern\Attribute.php:559]
+---------------------------------------------------------------
+
+[2020-05-12T00:37:09+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/show
+[运行时间：0.087844s] [吞吐率：11.38req/s] [内存消耗：4,109.93kb] [文件加载：122]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000990s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_department` [ RunTime:0.006971s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.007494s ]
+[ sql ] [ SQL ] SELECT `department`.`departmentId`,`department`.`departmentName`,`department`.`active`,`student`.`studentId` AS `student__studentId`,`student`.`studentName` AS `student__studentName`,`student`.`gender` AS `student__gender`,`student`.`both` AS `student__both`,`student`.`salt` AS `student__salt`,`student`.`password` AS `student__password`,`student`.`contact` AS `student__contact`,`student`.`grade` AS `student__grade`,`student`.`years` AS `student__years`,`student`.`departmentId` AS `student__departmentId`,`student`.`departmentName` AS `student__departmentName`,`student`.`majorId` AS `student__majorId`,`student`.`majorName` AS `student__majorName`,`student`.`class` AS `student__class`,`student`.`classId` AS `student__classId`,`student`.`seat` AS `student__seat`,`student`.`active` AS `student__active`,`student`.`idCard` AS `student__idCard`,`student`.`address` AS `student__address`,`student`.`studentImg` AS `student__studentImg` FROM `ms_department` `department` INNER JOIN `ms_student` `student` ON `department`.`departmentId`=`student`.`departmentId` WHERE  `department`.`departmentId` IN ('01','05') [ RunTime:0.000506s ]
+[ error ] [0]类的属性不存在:app\db\model\Department->classes[C:\#ThinkPhp\thinkphp5\thinkphp\library\think\model\concern\Attribute.php:559]
+---------------------------------------------------------------
+
+[2020-05-12T00:37:24+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/show
+[运行时间：0.090524s] [吞吐率：11.05req/s] [内存消耗：4,219.16kb] [文件加载：124]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001059s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_department` [ RunTime:0.006728s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.007211s ]
+[ sql ] [ SQL ] SELECT `department`.`departmentId`,`department`.`departmentName`,`department`.`active`,`student`.`studentId` AS `student__studentId`,`student`.`studentName` AS `student__studentName`,`student`.`gender` AS `student__gender`,`student`.`both` AS `student__both`,`student`.`salt` AS `student__salt`,`student`.`password` AS `student__password`,`student`.`contact` AS `student__contact`,`student`.`grade` AS `student__grade`,`student`.`years` AS `student__years`,`student`.`departmentId` AS `student__departmentId`,`student`.`departmentName` AS `student__departmentName`,`student`.`majorId` AS `student__majorId`,`student`.`majorName` AS `student__majorName`,`student`.`class` AS `student__class`,`student`.`classId` AS `student__classId`,`student`.`seat` AS `student__seat`,`student`.`active` AS `student__active`,`student`.`idCard` AS `student__idCard`,`student`.`address` AS `student__address`,`student`.`studentImg` AS `student__studentImg` FROM `ms_department` `department` INNER JOIN `ms_student` `student` ON `department`.`departmentId`=`student`.`departmentId` WHERE  `department`.`departmentId` IN ('01','05') [ RunTime:0.000430s ]
+[ error ] [0]类的属性不存在:app\db\model\Department->classId[C:\#ThinkPhp\thinkphp5\thinkphp\library\think\model\concern\Attribute.php:559]
+---------------------------------------------------------------
+
+[2020-05-12T00:37:26+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/show
+[运行时间：0.069958s] [吞吐率：14.29req/s] [内存消耗：4,219.18kb] [文件加载：124]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000883s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_department` [ RunTime:0.006378s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.006854s ]
+[ sql ] [ SQL ] SELECT `department`.`departmentId`,`department`.`departmentName`,`department`.`active`,`student`.`studentId` AS `student__studentId`,`student`.`studentName` AS `student__studentName`,`student`.`gender` AS `student__gender`,`student`.`both` AS `student__both`,`student`.`salt` AS `student__salt`,`student`.`password` AS `student__password`,`student`.`contact` AS `student__contact`,`student`.`grade` AS `student__grade`,`student`.`years` AS `student__years`,`student`.`departmentId` AS `student__departmentId`,`student`.`departmentName` AS `student__departmentName`,`student`.`majorId` AS `student__majorId`,`student`.`majorName` AS `student__majorName`,`student`.`class` AS `student__class`,`student`.`classId` AS `student__classId`,`student`.`seat` AS `student__seat`,`student`.`active` AS `student__active`,`student`.`idCard` AS `student__idCard`,`student`.`address` AS `student__address`,`student`.`studentImg` AS `student__studentImg` FROM `ms_department` `department` INNER JOIN `ms_student` `student` ON `department`.`departmentId`=`student`.`departmentId` WHERE  `department`.`departmentId` IN ('01','05') [ RunTime:0.000454s ]
+[ error ] [0]类的属性不存在:app\db\model\Department->classId[C:\#ThinkPhp\thinkphp5\thinkphp\library\think\model\concern\Attribute.php:559]
+---------------------------------------------------------------
+
+[2020-05-12T00:37:27+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/show
+[运行时间：0.080419s] [吞吐率：12.43req/s] [内存消耗：4,219.15kb] [文件加载：124]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010939s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_department` [ RunTime:0.007513s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.006191s ]
+[ sql ] [ SQL ] SELECT `department`.`departmentId`,`department`.`departmentName`,`department`.`active`,`student`.`studentId` AS `student__studentId`,`student`.`studentName` AS `student__studentName`,`student`.`gender` AS `student__gender`,`student`.`both` AS `student__both`,`student`.`salt` AS `student__salt`,`student`.`password` AS `student__password`,`student`.`contact` AS `student__contact`,`student`.`grade` AS `student__grade`,`student`.`years` AS `student__years`,`student`.`departmentId` AS `student__departmentId`,`student`.`departmentName` AS `student__departmentName`,`student`.`majorId` AS `student__majorId`,`student`.`majorName` AS `student__majorName`,`student`.`class` AS `student__class`,`student`.`classId` AS `student__classId`,`student`.`seat` AS `student__seat`,`student`.`active` AS `student__active`,`student`.`idCard` AS `student__idCard`,`student`.`address` AS `student__address`,`student`.`studentImg` AS `student__studentImg` FROM `ms_department` `department` INNER JOIN `ms_student` `student` ON `department`.`departmentId`=`student`.`departmentId` WHERE  `department`.`departmentId` IN ('01','05') [ RunTime:0.000380s ]
+[ error ] [0]类的属性不存在:app\db\model\Department->classId[C:\#ThinkPhp\thinkphp5\thinkphp\library\think\model\concern\Attribute.php:559]
+---------------------------------------------------------------
+
+[2020-05-12T00:37:45+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/show
+[运行时间：0.089272s] [吞吐率：11.20req/s] [内存消耗：4,090.35kb] [文件加载：121]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010889s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_department` [ RunTime:0.006135s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.007048s ]
+[ sql ] [ SQL ] SELECT `department`.`departmentId`,`department`.`departmentName`,`department`.`active`,`student`.`studentId` AS `student__studentId`,`student`.`studentName` AS `student__studentName`,`student`.`gender` AS `student__gender`,`student`.`both` AS `student__both`,`student`.`salt` AS `student__salt`,`student`.`password` AS `student__password`,`student`.`contact` AS `student__contact`,`student`.`grade` AS `student__grade`,`student`.`years` AS `student__years`,`student`.`departmentId` AS `student__departmentId`,`student`.`departmentName` AS `student__departmentName`,`student`.`majorId` AS `student__majorId`,`student`.`majorName` AS `student__majorName`,`student`.`class` AS `student__class`,`student`.`classId` AS `student__classId`,`student`.`seat` AS `student__seat`,`student`.`active` AS `student__active`,`student`.`idCard` AS `student__idCard`,`student`.`address` AS `student__address`,`student`.`studentImg` AS `student__studentImg` FROM `ms_department` `department` INNER JOIN `ms_student` `student` ON `department`.`departmentId`=`student`.`departmentId` WHERE  `department`.`departmentId` IN ('01','05') [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_class` [ RunTime:0.006992s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_class` WHERE  `departmentId` = '05' LIMIT 1 [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_class` WHERE  `departmentId` = '05' LIMIT 1 [ RunTime:0.000155s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_class` WHERE  `departmentId` = '05' LIMIT 1 [ RunTime:0.000134s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_class` WHERE  `departmentId` = '05' LIMIT 1 [ RunTime:0.000130s ]
+---------------------------------------------------------------
+
+[2020-05-12T01:06:15+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/show
+[运行时间：0.110290s] [吞吐率：9.07req/s] [内存消耗：4,103.92kb] [文件加载：122]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002756s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_department` [ RunTime:0.009055s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.007554s ]
+[ sql ] [ SQL ] SELECT `department`.`departmentId`,`department`.`departmentName`,`department`.`active`,`student`.`studentId` AS `student__studentId`,`student`.`studentName` AS `student__studentName`,`student`.`gender` AS `student__gender`,`student`.`both` AS `student__both`,`student`.`salt` AS `student__salt`,`student`.`password` AS `student__password`,`student`.`contact` AS `student__contact`,`student`.`grade` AS `student__grade`,`student`.`years` AS `student__years`,`student`.`departmentId` AS `student__departmentId`,`student`.`departmentName` AS `student__departmentName`,`student`.`majorId` AS `student__majorId`,`student`.`majorName` AS `student__majorName`,`student`.`class` AS `student__class`,`student`.`classId` AS `student__classId`,`student`.`seat` AS `student__seat`,`student`.`active` AS `student__active`,`student`.`idCard` AS `student__idCard`,`student`.`address` AS `student__address`,`student`.`studentImg` AS `student__studentImg` FROM `ms_department` `department` INNER JOIN `ms_student` `student` ON `department`.`departmentId`=`student`.`departmentId` WHERE  `department`.`departmentId` IN ('01','05') [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_class` [ RunTime:0.007249s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_class` WHERE  `departmentId` = '05' LIMIT 1 [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_class` WHERE  `departmentId` = '05' LIMIT 1 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_class` WHERE  `departmentId` = '05' LIMIT 1 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_class` WHERE  `departmentId` = '05' LIMIT 1 [ RunTime:0.000173s ]
+---------------------------------------------------------------
+
+[2020-05-12T01:07:50+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.075790s] [吞吐率：13.19req/s] [内存消耗：3,859.48kb] [文件加载：113]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001488s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.009482s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` WHERE  `grade` = '17' LIMIT 1 [ RunTime:0.000723s ]
+---------------------------------------------------------------
+
+[2020-05-12T01:08:15+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.077435s] [吞吐率：12.91req/s] [内存消耗：3,917.42kb] [文件加载：115]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001508s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.006825s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` [ RunTime:0.000382s ]
+---------------------------------------------------------------
+
+[2020-05-12T01:08:56+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.086867s] [吞吐率：11.51req/s] [内存消耗：3,982.05kb] [文件加载：119]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001121s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.007943s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` [ RunTime:0.000384s ]
+[ error ] [8]Undefined property: think\model\Collection::$classes[C:\#ThinkPhp\thinkphp5\application\db\controller\Forgen.php:190]
+---------------------------------------------------------------
+
+[2020-05-12T01:09:35+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.064097s] [吞吐率：15.60req/s] [内存消耗：3,982.05kb] [文件加载：119]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001184s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.007263s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` [ RunTime:0.000297s ]
+[ error ] [8]Undefined property: think\model\Collection::$classes[C:\#ThinkPhp\thinkphp5\application\db\controller\Forgen.php:190]
+---------------------------------------------------------------
+
+[2020-05-12T01:09:43+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.095063s] [吞吐率：10.52req/s] [内存消耗：4,035.40kb] [文件加载：122]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001279s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.008314s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` LIMIT 1 [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.007856s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_class` [ RunTime:0.007161s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pivot.grade_id' in 'where clause'[C:\#ThinkPhp\thinkphp5\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+
+[2020-05-12T01:09:45+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.078594s] [吞吐率：12.72req/s] [内存消耗：4,035.40kb] [文件加载：122]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001045s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.007195s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` LIMIT 1 [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.006447s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_class` [ RunTime:0.007325s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pivot.grade_id' in 'where clause'[C:\#ThinkPhp\thinkphp5\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+
+[2020-05-12T01:10:16+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.080165s] [吞吐率：12.47req/s] [内存消耗：3,915.22kb] [文件加载：115]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011191s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.007892s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` LIMIT 1 [ RunTime:0.000506s ]
+[ error ] [0]类的属性不存在:app\db\model\Grade->student[C:\#ThinkPhp\thinkphp5\thinkphp\library\think\model\concern\Attribute.php:559]
+---------------------------------------------------------------
+
+[2020-05-12T01:10:27+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.068683s] [吞吐率：14.56req/s] [内存消耗：3,956.84kb] [文件加载：117]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000926s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.006787s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` LIMIT 1 [ RunTime:0.000453s ]
+---------------------------------------------------------------
+
+[2020-05-12T01:10:38+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.076873s] [吞吐率：13.01req/s] [内存消耗：4,035.40kb] [文件加载：122]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000916s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.007122s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` LIMIT 1 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.007571s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_class` [ RunTime:0.006391s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pivot.grade_id' in 'where clause'[C:\#ThinkPhp\thinkphp5\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+
+[2020-05-12T01:11:21+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.081546s] [吞吐率：12.26req/s] [内存消耗：4,035.52kb] [文件加载：122]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000818s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.005944s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` LIMIT 1 [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.006653s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_class` [ RunTime:0.005703s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ms_class.id' in 'on clause'[C:\#ThinkPhp\thinkphp5\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+
+[2020-05-12T01:11:22+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.081227s] [吞吐率：12.31req/s] [内存消耗：4,035.52kb] [文件加载：122]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001348s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.007087s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` LIMIT 1 [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.007685s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_class` [ RunTime:0.006980s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ms_class.id' in 'on clause'[C:\#ThinkPhp\thinkphp5\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+
+[2020-05-12T01:11:23+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.080409s] [吞吐率：12.44req/s] [内存消耗：4,035.52kb] [文件加载：122]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000944s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.005952s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` LIMIT 1 [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.006642s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_class` [ RunTime:0.006045s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ms_class.id' in 'on clause'[C:\#ThinkPhp\thinkphp5\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+
+[2020-05-12T01:11:23+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.073527s] [吞吐率：13.60req/s] [内存消耗：4,035.52kb] [文件加载：122]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000850s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.005973s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` LIMIT 1 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.006634s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_class` [ RunTime:0.006327s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ms_class.id' in 'on clause'[C:\#ThinkPhp\thinkphp5\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+
+[2020-05-12T01:11:42+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.079028s] [吞吐率：12.65req/s] [内存消耗：4,011.83kb] [文件加载：122]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000868s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.005780s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.007210s ]
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'management_system.ms_class_id' doesn't exist[C:\#ThinkPhp\thinkphp5\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+
+[2020-05-12T01:11:52+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.081392s] [吞吐率：12.29req/s] [内存消耗：4,035.52kb] [文件加载：122]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001445s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.006628s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` LIMIT 1 [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.007582s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_class` [ RunTime:0.007047s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ms_class.id' in 'on clause'[C:\#ThinkPhp\thinkphp5\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+
+[2020-05-12T01:12:06+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.081290s] [吞吐率：12.30req/s] [内存消耗：4,035.97kb] [文件加载：119]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011361s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.005835s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` LIMIT 1 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.007138s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_class` [ RunTime:0.006111s ]
+[ sql ] [ SQL ] SELECT `ms_class`.*,`pivot`.`studentId` AS `pivot__studentId`,`pivot`.`studentName` AS `pivot__studentName`,`pivot`.`gender` AS `pivot__gender`,`pivot`.`both` AS `pivot__both`,`pivot`.`salt` AS `pivot__salt`,`pivot`.`password` AS `pivot__password`,`pivot`.`contact` AS `pivot__contact`,`pivot`.`grade` AS `pivot__grade`,`pivot`.`years` AS `pivot__years`,`pivot`.`departmentId` AS `pivot__departmentId`,`pivot`.`departmentName` AS `pivot__departmentName`,`pivot`.`majorId` AS `pivot__majorId`,`pivot`.`majorName` AS `pivot__majorName`,`pivot`.`class` AS `pivot__class`,`pivot`.`classId` AS `pivot__classId`,`pivot`.`seat` AS `pivot__seat`,`pivot`.`active` AS `pivot__active`,`pivot`.`idCard` AS `pivot__idCard`,`pivot`.`address` AS `pivot__address`,`pivot`.`studentImg` AS `pivot__studentImg` FROM `ms_class` INNER JOIN `ms_student` `pivot` ON `pivot`.`grade`=`ms_class`.`classId` WHERE  `pivot`.`grade` = '17' [ RunTime:0.001672s ]
+---------------------------------------------------------------
+
+[2020-05-12T01:12:07+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.082047s] [吞吐率：12.19req/s] [内存消耗：4,035.97kb] [文件加载：119]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011227s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.005723s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` LIMIT 1 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.006393s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_class` [ RunTime:0.005922s ]
+[ sql ] [ SQL ] SELECT `ms_class`.*,`pivot`.`studentId` AS `pivot__studentId`,`pivot`.`studentName` AS `pivot__studentName`,`pivot`.`gender` AS `pivot__gender`,`pivot`.`both` AS `pivot__both`,`pivot`.`salt` AS `pivot__salt`,`pivot`.`password` AS `pivot__password`,`pivot`.`contact` AS `pivot__contact`,`pivot`.`grade` AS `pivot__grade`,`pivot`.`years` AS `pivot__years`,`pivot`.`departmentId` AS `pivot__departmentId`,`pivot`.`departmentName` AS `pivot__departmentName`,`pivot`.`majorId` AS `pivot__majorId`,`pivot`.`majorName` AS `pivot__majorName`,`pivot`.`class` AS `pivot__class`,`pivot`.`classId` AS `pivot__classId`,`pivot`.`seat` AS `pivot__seat`,`pivot`.`active` AS `pivot__active`,`pivot`.`idCard` AS `pivot__idCard`,`pivot`.`address` AS `pivot__address`,`pivot`.`studentImg` AS `pivot__studentImg` FROM `ms_class` INNER JOIN `ms_student` `pivot` ON `pivot`.`grade`=`ms_class`.`classId` WHERE  `pivot`.`grade` = '17' [ RunTime:0.000305s ]
+---------------------------------------------------------------
+
+[2020-05-12T01:12:35+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.082201s] [吞吐率：12.17req/s] [内存消耗：4,036.27kb] [文件加载：119]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011073s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.005902s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` LIMIT 1 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.007334s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_class` [ RunTime:0.006088s ]
+[ sql ] [ SQL ] SELECT `ms_class`.*,`pivot`.`studentId` AS `pivot__studentId`,`pivot`.`studentName` AS `pivot__studentName`,`pivot`.`gender` AS `pivot__gender`,`pivot`.`both` AS `pivot__both`,`pivot`.`salt` AS `pivot__salt`,`pivot`.`password` AS `pivot__password`,`pivot`.`contact` AS `pivot__contact`,`pivot`.`grade` AS `pivot__grade`,`pivot`.`years` AS `pivot__years`,`pivot`.`departmentId` AS `pivot__departmentId`,`pivot`.`departmentName` AS `pivot__departmentName`,`pivot`.`majorId` AS `pivot__majorId`,`pivot`.`majorName` AS `pivot__majorName`,`pivot`.`class` AS `pivot__class`,`pivot`.`classId` AS `pivot__classId`,`pivot`.`seat` AS `pivot__seat`,`pivot`.`active` AS `pivot__active`,`pivot`.`idCard` AS `pivot__idCard`,`pivot`.`address` AS `pivot__address`,`pivot`.`studentImg` AS `pivot__studentImg` FROM `ms_class` INNER JOIN `ms_student` `pivot` ON `pivot`.`grade`=`ms_class`.`classId` WHERE  `pivot`.`grade` = '17' [ RunTime:0.000279s ]
+---------------------------------------------------------------
+
+[2020-05-12T01:14:23+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.826072s] [吞吐率：1.21req/s] [内存消耗：4,024.80kb] [文件加载：122]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001264s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.729458s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` LIMIT 1 [ RunTime:0.000468s ]
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'management_system.ms_classes' doesn't exist[C:\#ThinkPhp\thinkphp5\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+
+[2020-05-12T01:14:45+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.664272s] [吞吐率：1.51req/s] [内存消耗：4,024.80kb] [文件加载：122]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011793s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.569945s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` LIMIT 1 [ RunTime:0.000418s ]
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'management_system.ms_classes' doesn't exist[C:\#ThinkPhp\thinkphp5\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+
+[2020-05-12T01:14:58+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.105529s] [吞吐率：9.48req/s] [内存消耗：4,054.16kb] [文件加载：119]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010344s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.006958s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` LIMIT 1 [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_class` [ RunTime:0.007169s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.007013s ]
+[ sql ] [ SQL ] SELECT `ms_student`.*,`pivot`.`classId` AS `pivot__classId`,`pivot`.`grade` AS `pivot__grade`,`pivot`.`years` AS `pivot__years`,`pivot`.`departmentId` AS `pivot__departmentId`,`pivot`.`departmentName` AS `pivot__departmentName`,`pivot`.`majorId` AS `pivot__majorId`,`pivot`.`majorName` AS `pivot__majorName`,`pivot`.`class` AS `pivot__class`,`pivot`.`studentNum` AS `pivot__studentNum` FROM `ms_student` INNER JOIN `ms_class` `pivot` ON `pivot`.`grade`=`ms_student`.`studentId` WHERE  `gender` IN ('','男','女')  AND `pivot`.`grade` = '17' [ RunTime:0.001162s ]
+---------------------------------------------------------------
+
+[2020-05-12T01:15:00+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.091335s] [吞吐率：10.95req/s] [内存消耗：4,054.16kb] [文件加载：119]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010992s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.007362s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` LIMIT 1 [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_class` [ RunTime:0.007889s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.007343s ]
+[ sql ] [ SQL ] SELECT `ms_student`.*,`pivot`.`classId` AS `pivot__classId`,`pivot`.`grade` AS `pivot__grade`,`pivot`.`years` AS `pivot__years`,`pivot`.`departmentId` AS `pivot__departmentId`,`pivot`.`departmentName` AS `pivot__departmentName`,`pivot`.`majorId` AS `pivot__majorId`,`pivot`.`majorName` AS `pivot__majorName`,`pivot`.`class` AS `pivot__class`,`pivot`.`studentNum` AS `pivot__studentNum` FROM `ms_student` INNER JOIN `ms_class` `pivot` ON `pivot`.`grade`=`ms_student`.`studentId` WHERE  `gender` IN ('','男','女')  AND `pivot`.`grade` = '17' [ RunTime:0.000411s ]
+---------------------------------------------------------------
+
+[2020-05-12T01:15:03+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.080579s] [吞吐率：12.41req/s] [内存消耗：4,054.14kb] [文件加载：119]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010498s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.006777s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` LIMIT 1 [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_class` [ RunTime:0.006838s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.006244s ]
+[ sql ] [ SQL ] SELECT `ms_student`.*,`pivot`.`classId` AS `pivot__classId`,`pivot`.`grade` AS `pivot__grade`,`pivot`.`years` AS `pivot__years`,`pivot`.`departmentId` AS `pivot__departmentId`,`pivot`.`departmentName` AS `pivot__departmentName`,`pivot`.`majorId` AS `pivot__majorId`,`pivot`.`majorName` AS `pivot__majorName`,`pivot`.`class` AS `pivot__class`,`pivot`.`studentNum` AS `pivot__studentNum` FROM `ms_student` INNER JOIN `ms_class` `pivot` ON `pivot`.`grade`=`ms_student`.`studentId` WHERE  `gender` IN ('','男','女')  AND `pivot`.`grade` = '17' [ RunTime:0.000427s ]
+---------------------------------------------------------------
+
+[2020-05-12T01:24:18+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.104238s] [吞吐率：9.59req/s] [内存消耗：3,915.55kb] [文件加载：115]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001414s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_course` [ RunTime:0.009767s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_course` LIMIT 1 [ RunTime:0.000567s ]
+[ error ] [0]类的属性不存在:app\db\model\Course->classes[C:\#ThinkPhp\thinkphp5\thinkphp\library\think\model\concern\Attribute.php:559]
+---------------------------------------------------------------
+
+[2020-05-12T01:24:30+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.069128s] [吞吐率：14.47req/s] [内存消耗：3,857.21kb] [文件加载：113]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001129s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_course` [ RunTime:0.006685s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_course` LIMIT 1 [ RunTime:0.000352s ]
+---------------------------------------------------------------
+
+[2020-05-12T01:26:29+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.767163s] [吞吐率：1.30req/s] [内存消耗：4,056.35kb] [文件加载：122]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000974s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_course` [ RunTime:0.006940s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_course` LIMIT 1 [ RunTime:0.000519s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.671862s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.009255s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pivot.studentId' in 'where clause'[C:\#ThinkPhp\thinkphp5\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+
+[2020-05-12T01:27:45+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.101818s] [吞吐率：9.82req/s] [内存消耗：4,056.34kb] [文件加载：122]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011129s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.006599s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` LIMIT 1 [ RunTime:0.000313s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_course` [ RunTime:0.007056s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.005872s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pivot.grade' in 'where clause'[C:\#ThinkPhp\thinkphp5\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+
+[2020-05-12T01:28:16+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.104346s] [吞吐率：9.58req/s] [内存消耗：4,035.35kb] [文件加载：119]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011884s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.008351s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` LIMIT 1 [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.007495s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_course` [ RunTime:0.007492s ]
+[ sql ] [ SQL ] SELECT `ms_course`.*,`pivot`.`studentId` AS `pivot__studentId`,`pivot`.`studentName` AS `pivot__studentName`,`pivot`.`gender` AS `pivot__gender`,`pivot`.`both` AS `pivot__both`,`pivot`.`salt` AS `pivot__salt`,`pivot`.`password` AS `pivot__password`,`pivot`.`contact` AS `pivot__contact`,`pivot`.`grade` AS `pivot__grade`,`pivot`.`years` AS `pivot__years`,`pivot`.`departmentId` AS `pivot__departmentId`,`pivot`.`departmentName` AS `pivot__departmentName`,`pivot`.`majorId` AS `pivot__majorId`,`pivot`.`majorName` AS `pivot__majorName`,`pivot`.`class` AS `pivot__class`,`pivot`.`classId` AS `pivot__classId`,`pivot`.`seat` AS `pivot__seat`,`pivot`.`active` AS `pivot__active`,`pivot`.`idCard` AS `pivot__idCard`,`pivot`.`address` AS `pivot__address`,`pivot`.`studentImg` AS `pivot__studentImg` FROM `ms_course` INNER JOIN `ms_student` `pivot` ON `pivot`.`grade`=`ms_course`.`courseId` WHERE  `pivot`.`grade` = '17' [ RunTime:0.001713s ]
+---------------------------------------------------------------
+
+[2020-05-12T01:28:32+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.091003s] [吞吐率：10.99req/s] [内存消耗：4,035.45kb] [文件加载：119]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011293s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.006643s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` WHERE  `grade` = '17' LIMIT 1 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.007749s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_course` [ RunTime:0.006540s ]
+[ sql ] [ SQL ] SELECT `ms_course`.*,`pivot`.`studentId` AS `pivot__studentId`,`pivot`.`studentName` AS `pivot__studentName`,`pivot`.`gender` AS `pivot__gender`,`pivot`.`both` AS `pivot__both`,`pivot`.`salt` AS `pivot__salt`,`pivot`.`password` AS `pivot__password`,`pivot`.`contact` AS `pivot__contact`,`pivot`.`grade` AS `pivot__grade`,`pivot`.`years` AS `pivot__years`,`pivot`.`departmentId` AS `pivot__departmentId`,`pivot`.`departmentName` AS `pivot__departmentName`,`pivot`.`majorId` AS `pivot__majorId`,`pivot`.`majorName` AS `pivot__majorName`,`pivot`.`class` AS `pivot__class`,`pivot`.`classId` AS `pivot__classId`,`pivot`.`seat` AS `pivot__seat`,`pivot`.`active` AS `pivot__active`,`pivot`.`idCard` AS `pivot__idCard`,`pivot`.`address` AS `pivot__address`,`pivot`.`studentImg` AS `pivot__studentImg` FROM `ms_course` INNER JOIN `ms_student` `pivot` ON `pivot`.`grade`=`ms_course`.`courseId` WHERE  `pivot`.`grade` = '17' [ RunTime:0.000259s ]
+---------------------------------------------------------------
+
+[2020-05-12T01:28:49+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.086193s] [吞吐率：11.60req/s] [内存消耗：4,035.45kb] [文件加载：119]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011345s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.007083s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` WHERE  `grade` = '17' LIMIT 1 [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.007243s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_course` [ RunTime:0.008123s ]
+[ sql ] [ SQL ] SELECT `ms_course`.*,`pivot`.`studentId` AS `pivot__studentId`,`pivot`.`studentName` AS `pivot__studentName`,`pivot`.`gender` AS `pivot__gender`,`pivot`.`both` AS `pivot__both`,`pivot`.`salt` AS `pivot__salt`,`pivot`.`password` AS `pivot__password`,`pivot`.`contact` AS `pivot__contact`,`pivot`.`grade` AS `pivot__grade`,`pivot`.`years` AS `pivot__years`,`pivot`.`departmentId` AS `pivot__departmentId`,`pivot`.`departmentName` AS `pivot__departmentName`,`pivot`.`majorId` AS `pivot__majorId`,`pivot`.`majorName` AS `pivot__majorName`,`pivot`.`class` AS `pivot__class`,`pivot`.`classId` AS `pivot__classId`,`pivot`.`seat` AS `pivot__seat`,`pivot`.`active` AS `pivot__active`,`pivot`.`idCard` AS `pivot__idCard`,`pivot`.`address` AS `pivot__address`,`pivot`.`studentImg` AS `pivot__studentImg` FROM `ms_course` INNER JOIN `ms_student` `pivot` ON `pivot`.`grade`=`ms_course`.`courseId` WHERE  `pivot`.`grade` = '17' [ RunTime:0.000931s ]
+---------------------------------------------------------------
+
+[2020-05-12T01:29:28+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.090469s] [吞吐率：11.05req/s] [内存消耗：4,035.55kb] [文件加载：119]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011077s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.006764s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` WHERE  `grade` = '17' LIMIT 1 [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.008596s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_course` [ RunTime:0.006389s ]
+[ sql ] [ SQL ] SELECT `ms_course`.*,`pivot`.`studentId` AS `pivot__studentId`,`pivot`.`studentName` AS `pivot__studentName`,`pivot`.`gender` AS `pivot__gender`,`pivot`.`both` AS `pivot__both`,`pivot`.`salt` AS `pivot__salt`,`pivot`.`password` AS `pivot__password`,`pivot`.`contact` AS `pivot__contact`,`pivot`.`grade` AS `pivot__grade`,`pivot`.`years` AS `pivot__years`,`pivot`.`departmentId` AS `pivot__departmentId`,`pivot`.`departmentName` AS `pivot__departmentName`,`pivot`.`majorId` AS `pivot__majorId`,`pivot`.`majorName` AS `pivot__majorName`,`pivot`.`class` AS `pivot__class`,`pivot`.`classId` AS `pivot__classId`,`pivot`.`seat` AS `pivot__seat`,`pivot`.`active` AS `pivot__active`,`pivot`.`idCard` AS `pivot__idCard`,`pivot`.`address` AS `pivot__address`,`pivot`.`studentImg` AS `pivot__studentImg` FROM `ms_course` INNER JOIN `ms_student` `pivot` ON `pivot`.`grade`=`ms_course`.`courseId` WHERE  `pivot`.`grade` = '17' [ RunTime:0.000279s ]
+---------------------------------------------------------------
+
+[2020-05-12T01:31:17+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.100588s] [吞吐率：9.94req/s] [内存消耗：4,035.55kb] [文件加载：119]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011143s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.006266s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` WHERE  `grade` = '17' LIMIT 1 [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.007675s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_course` [ RunTime:0.006610s ]
+[ sql ] [ SQL ] SELECT `ms_course`.*,`pivot`.`studentId` AS `pivot__studentId`,`pivot`.`studentName` AS `pivot__studentName`,`pivot`.`gender` AS `pivot__gender`,`pivot`.`both` AS `pivot__both`,`pivot`.`salt` AS `pivot__salt`,`pivot`.`password` AS `pivot__password`,`pivot`.`contact` AS `pivot__contact`,`pivot`.`grade` AS `pivot__grade`,`pivot`.`years` AS `pivot__years`,`pivot`.`departmentId` AS `pivot__departmentId`,`pivot`.`departmentName` AS `pivot__departmentName`,`pivot`.`majorId` AS `pivot__majorId`,`pivot`.`majorName` AS `pivot__majorName`,`pivot`.`class` AS `pivot__class`,`pivot`.`classId` AS `pivot__classId`,`pivot`.`seat` AS `pivot__seat`,`pivot`.`active` AS `pivot__active`,`pivot`.`idCard` AS `pivot__idCard`,`pivot`.`address` AS `pivot__address`,`pivot`.`studentImg` AS `pivot__studentImg` FROM `ms_course` INNER JOIN `ms_student` `pivot` ON `pivot`.`studentId`=`ms_course`.`courseId` WHERE  `pivot`.`studentId` = '17' [ RunTime:0.000409s ]
+---------------------------------------------------------------
+
+[2020-05-12T01:31:46+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.090752s] [吞吐率：11.02req/s] [内存消耗：4,035.57kb] [文件加载：119]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010944s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.006025s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` WHERE  `grade` = '17' LIMIT 1 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.007132s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_course` [ RunTime:0.006159s ]
+[ sql ] [ SQL ] SELECT `ms_course`.*,`pivot`.`studentId` AS `pivot__studentId`,`pivot`.`studentName` AS `pivot__studentName`,`pivot`.`gender` AS `pivot__gender`,`pivot`.`both` AS `pivot__both`,`pivot`.`salt` AS `pivot__salt`,`pivot`.`password` AS `pivot__password`,`pivot`.`contact` AS `pivot__contact`,`pivot`.`grade` AS `pivot__grade`,`pivot`.`years` AS `pivot__years`,`pivot`.`departmentId` AS `pivot__departmentId`,`pivot`.`departmentName` AS `pivot__departmentName`,`pivot`.`majorId` AS `pivot__majorId`,`pivot`.`majorName` AS `pivot__majorName`,`pivot`.`class` AS `pivot__class`,`pivot`.`classId` AS `pivot__classId`,`pivot`.`seat` AS `pivot__seat`,`pivot`.`active` AS `pivot__active`,`pivot`.`idCard` AS `pivot__idCard`,`pivot`.`address` AS `pivot__address`,`pivot`.`studentImg` AS `pivot__studentImg` FROM `ms_course` INNER JOIN `ms_student` `pivot` ON `pivot`.`studentId`=`ms_course`.`courseId` WHERE  `pivot`.`grade` = '17' [ RunTime:0.000447s ]
+---------------------------------------------------------------
+
+[2020-05-12T01:32:06+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.098317s] [吞吐率：10.17req/s] [内存消耗：4,037.61kb] [文件加载：123]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010933s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.007091s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` WHERE  `grade` = '17' LIMIT 1 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.007208s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_course` [ RunTime:0.006667s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ms_course.studentId' in 'on clause'[C:\#ThinkPhp\thinkphp5\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+
+[2020-05-12T01:33:00+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.079072s] [吞吐率：12.65req/s] [内存消耗：4,037.16kb] [文件加载：123]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001056s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.006469s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` WHERE  `grade` = '17' LIMIT 1 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.008069s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_course` [ RunTime:0.006630s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ms_course.studentId' in 'on clause'[C:\#ThinkPhp\thinkphp5\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+
+[2020-05-12T01:33:01+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.090359s] [吞吐率：11.07req/s] [内存消耗：4,037.16kb] [文件加载：123]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011216s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.008378s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` WHERE  `grade` = '17' LIMIT 1 [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.008072s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_course` [ RunTime:0.007215s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ms_course.studentId' in 'on clause'[C:\#ThinkPhp\thinkphp5\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+
+[2020-05-12T01:33:19+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.103544s] [吞吐率：9.66req/s] [内存消耗：4,047.41kb] [文件加载：119]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001537s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.010214s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` WHERE  `grade` = '17' LIMIT 1 [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.008972s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_score` [ RunTime:0.008588s ]
+[ sql ] [ SQL ] SELECT `ms_score`.*,`pivot`.`studentId` AS `pivot__studentId`,`pivot`.`studentName` AS `pivot__studentName`,`pivot`.`gender` AS `pivot__gender`,`pivot`.`both` AS `pivot__both`,`pivot`.`salt` AS `pivot__salt`,`pivot`.`password` AS `pivot__password`,`pivot`.`contact` AS `pivot__contact`,`pivot`.`grade` AS `pivot__grade`,`pivot`.`years` AS `pivot__years`,`pivot`.`departmentId` AS `pivot__departmentId`,`pivot`.`departmentName` AS `pivot__departmentName`,`pivot`.`majorId` AS `pivot__majorId`,`pivot`.`majorName` AS `pivot__majorName`,`pivot`.`class` AS `pivot__class`,`pivot`.`classId` AS `pivot__classId`,`pivot`.`seat` AS `pivot__seat`,`pivot`.`active` AS `pivot__active`,`pivot`.`idCard` AS `pivot__idCard`,`pivot`.`address` AS `pivot__address`,`pivot`.`studentImg` AS `pivot__studentImg` FROM `ms_score` INNER JOIN `ms_student` `pivot` ON `pivot`.`studentId`=`ms_score`.`studentId` WHERE  `pivot`.`grade` = '17' [ RunTime:0.000823s ]
+---------------------------------------------------------------
+
+[2020-05-12T01:33:49+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.087863s] [吞吐率：11.38req/s] [内存消耗：4,047.13kb] [文件加载：119]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001247s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.007118s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` WHERE  `grade` = '17' LIMIT 1 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.007749s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_score` [ RunTime:0.006988s ]
+[ sql ] [ SQL ] SELECT `ms_score`.*,`pivot`.`studentId` AS `pivot__studentId`,`pivot`.`studentName` AS `pivot__studentName`,`pivot`.`gender` AS `pivot__gender`,`pivot`.`both` AS `pivot__both`,`pivot`.`salt` AS `pivot__salt`,`pivot`.`password` AS `pivot__password`,`pivot`.`contact` AS `pivot__contact`,`pivot`.`grade` AS `pivot__grade`,`pivot`.`years` AS `pivot__years`,`pivot`.`departmentId` AS `pivot__departmentId`,`pivot`.`departmentName` AS `pivot__departmentName`,`pivot`.`majorId` AS `pivot__majorId`,`pivot`.`majorName` AS `pivot__majorName`,`pivot`.`class` AS `pivot__class`,`pivot`.`classId` AS `pivot__classId`,`pivot`.`seat` AS `pivot__seat`,`pivot`.`active` AS `pivot__active`,`pivot`.`idCard` AS `pivot__idCard`,`pivot`.`address` AS `pivot__address`,`pivot`.`studentImg` AS `pivot__studentImg` FROM `ms_score` INNER JOIN `ms_student` `pivot` ON `pivot`.`studentId`=`ms_score`.`studentId` WHERE  `pivot`.`grade` = '17' [ RunTime:0.000306s ]
+---------------------------------------------------------------
+
+[2020-05-12T01:35:37+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.078291s] [吞吐率：12.77req/s] [内存消耗：3,920.59kb] [文件加载：115]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011520s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_score` [ RunTime:0.007014s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_score` WHERE  `studentId` = '1730502127' [ RunTime:0.000588s ]
+---------------------------------------------------------------
+
+[2020-05-12T01:35:53+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.082533s] [吞吐率：12.12req/s] [内存消耗：3,987.89kb] [文件加载：120]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000952s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_score` [ RunTime:0.007797s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_score` WHERE  `studentId` = '1730502127' [ RunTime:0.000377s ]
+[ error ] [8]Undefined property: think\model\Collection::$grade[C:\#ThinkPhp\thinkphp5\application\db\controller\Forgen.php:194]
+---------------------------------------------------------------
+
+[2020-05-12T01:36:09+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.081661s] [吞吐率：12.25req/s] [内存消耗：3,986.45kb] [文件加载：119]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010839s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_score` [ RunTime:0.007114s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_score` WHERE  `studentId` = '1730502127' [ RunTime:0.000302s ]
+[ error ] [0]致命错误: Call to undefined method think\model\Collection::grade()[C:\#ThinkPhp\thinkphp5\application\db\controller\Forgen.php:194]
+---------------------------------------------------------------
+
+[2020-05-12T01:36:37+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.069126s] [吞吐率：14.47req/s] [内存消耗：3,860.12kb] [文件加载：113]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011667s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_score` [ RunTime:0.007654s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_score` WHERE  `studentId` = '1730502127' LIMIT 1 [ RunTime:0.000476s ]
+---------------------------------------------------------------
+
+[2020-05-12T01:36:48+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.081234s] [吞吐率：12.31req/s] [内存消耗：4,047.01kb] [文件加载：119]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001240s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_score` [ RunTime:0.007452s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_score` WHERE  `studentId` = '1730502127' LIMIT 1 [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.009312s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.006955s ]
+[ sql ] [ SQL ] SELECT `ms_grade`.*,`pivot`.`studentId` AS `pivot__studentId`,`pivot`.`studentName` AS `pivot__studentName`,`pivot`.`gender` AS `pivot__gender`,`pivot`.`both` AS `pivot__both`,`pivot`.`salt` AS `pivot__salt`,`pivot`.`password` AS `pivot__password`,`pivot`.`contact` AS `pivot__contact`,`pivot`.`grade` AS `pivot__grade`,`pivot`.`years` AS `pivot__years`,`pivot`.`departmentId` AS `pivot__departmentId`,`pivot`.`departmentName` AS `pivot__departmentName`,`pivot`.`majorId` AS `pivot__majorId`,`pivot`.`majorName` AS `pivot__majorName`,`pivot`.`class` AS `pivot__class`,`pivot`.`classId` AS `pivot__classId`,`pivot`.`seat` AS `pivot__seat`,`pivot`.`active` AS `pivot__active`,`pivot`.`idCard` AS `pivot__idCard`,`pivot`.`address` AS `pivot__address`,`pivot`.`studentImg` AS `pivot__studentImg` FROM `ms_grade` INNER JOIN `ms_student` `pivot` ON `pivot`.`grade`=`ms_grade`.`grade` WHERE  `pivot`.`studentId` = '1730502127' [ RunTime:0.000632s ]
+---------------------------------------------------------------
+
+[2020-05-12T01:41:35+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.082505s] [吞吐率：12.12req/s] [内存消耗：3,991.82kb] [文件加载：121]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001240s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.007816s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` WHERE  `grade` = '17' LIMIT 1 [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_score` [ RunTime:0.007127s ]
+[ sql ] [ SQL ] INSERT INTO `ms_score` (`score`) VALUES ('10') [ RunTime:0.005247s ]
+[ error ] [0]缺少关联表数据[C:\#ThinkPhp\thinkphp5\thinkphp\library\think\model\relation\BelongsToMany.php:577]
+---------------------------------------------------------------
+
+[2020-05-12T01:41:51+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.696525s] [吞吐率：1.44req/s] [内存消耗：4,047.13kb] [文件加载：119]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001234s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.006805s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` WHERE  `grade` = '17' LIMIT 1 [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.616453s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_score` [ RunTime:0.011444s ]
+[ sql ] [ SQL ] SELECT `ms_score`.*,`pivot`.`studentId` AS `pivot__studentId`,`pivot`.`studentName` AS `pivot__studentName`,`pivot`.`gender` AS `pivot__gender`,`pivot`.`both` AS `pivot__both`,`pivot`.`salt` AS `pivot__salt`,`pivot`.`password` AS `pivot__password`,`pivot`.`contact` AS `pivot__contact`,`pivot`.`grade` AS `pivot__grade`,`pivot`.`years` AS `pivot__years`,`pivot`.`departmentId` AS `pivot__departmentId`,`pivot`.`departmentName` AS `pivot__departmentName`,`pivot`.`majorId` AS `pivot__majorId`,`pivot`.`majorName` AS `pivot__majorName`,`pivot`.`class` AS `pivot__class`,`pivot`.`classId` AS `pivot__classId`,`pivot`.`seat` AS `pivot__seat`,`pivot`.`active` AS `pivot__active`,`pivot`.`idCard` AS `pivot__idCard`,`pivot`.`address` AS `pivot__address`,`pivot`.`studentImg` AS `pivot__studentImg` FROM `ms_score` INNER JOIN `ms_student` `pivot` ON `pivot`.`studentId`=`ms_score`.`studentId` WHERE  `pivot`.`grade` = '17' [ RunTime:0.000662s ]
+---------------------------------------------------------------
+
+[2020-05-12T01:42:18+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.123602s] [吞吐率：8.09req/s] [内存消耗：4,146.44kb] [文件加载：125]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001129s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.007942s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` WHERE  `grade` = '17' LIMIT 1 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.008262s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_score` [ RunTime:0.008525s ]
+[ sql ] [ SQL ] SELECT `ms_score`.*,`pivot`.`studentId` AS `pivot__studentId`,`pivot`.`studentName` AS `pivot__studentName`,`pivot`.`gender` AS `pivot__gender`,`pivot`.`both` AS `pivot__both`,`pivot`.`salt` AS `pivot__salt`,`pivot`.`password` AS `pivot__password`,`pivot`.`contact` AS `pivot__contact`,`pivot`.`grade` AS `pivot__grade`,`pivot`.`years` AS `pivot__years`,`pivot`.`departmentId` AS `pivot__departmentId`,`pivot`.`departmentName` AS `pivot__departmentName`,`pivot`.`majorId` AS `pivot__majorId`,`pivot`.`majorName` AS `pivot__majorName`,`pivot`.`class` AS `pivot__class`,`pivot`.`classId` AS `pivot__classId`,`pivot`.`seat` AS `pivot__seat`,`pivot`.`active` AS `pivot__active`,`pivot`.`idCard` AS `pivot__idCard`,`pivot`.`address` AS `pivot__address`,`pivot`.`studentImg` AS `pivot__studentImg` FROM `ms_score` INNER JOIN `ms_student` `pivot` ON `pivot`.`studentId`=`ms_score`.`studentId` WHERE  `pivot`.`grade` = '17' [ RunTime:0.000421s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'uniqueScoreData'[C:\#ThinkPhp\thinkphp5\thinkphp\library\think\db\Connection.php:764]
+---------------------------------------------------------------
+
+[2020-05-12T01:43:14+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.126714s] [吞吐率：7.89req/s] [内存消耗：4,140.43kb] [文件加载：123]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001332s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.009320s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` WHERE  `grade` = '17' LIMIT 1 [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.008108s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_score` [ RunTime:0.008337s ]
+[ sql ] [ SQL ] SELECT `ms_score`.*,`pivot`.`studentId` AS `pivot__studentId`,`pivot`.`studentName` AS `pivot__studentName`,`pivot`.`gender` AS `pivot__gender`,`pivot`.`both` AS `pivot__both`,`pivot`.`salt` AS `pivot__salt`,`pivot`.`password` AS `pivot__password`,`pivot`.`contact` AS `pivot__contact`,`pivot`.`grade` AS `pivot__grade`,`pivot`.`years` AS `pivot__years`,`pivot`.`departmentId` AS `pivot__departmentId`,`pivot`.`departmentName` AS `pivot__departmentName`,`pivot`.`majorId` AS `pivot__majorId`,`pivot`.`majorName` AS `pivot__majorName`,`pivot`.`class` AS `pivot__class`,`pivot`.`classId` AS `pivot__classId`,`pivot`.`seat` AS `pivot__seat`,`pivot`.`active` AS `pivot__active`,`pivot`.`idCard` AS `pivot__idCard`,`pivot`.`address` AS `pivot__address`,`pivot`.`studentImg` AS `pivot__studentImg` FROM `ms_score` INNER JOIN `ms_student` `pivot` ON `pivot`.`studentId`=`ms_score`.`studentId` WHERE  `pivot`.`grade` = '17' [ RunTime:0.000535s ]
+[ sql ] [ SQL ] INSERT INTO `ms_score` (`score` , `courseId`) VALUES ('10' , '123') [ RunTime:0.003141s ]
+[ error ] [0]缺少关联表数据[C:\#ThinkPhp\thinkphp5\thinkphp\library\think\model\relation\BelongsToMany.php:577]
+---------------------------------------------------------------
+
+[2020-05-12T01:43:47+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.098670s] [吞吐率：10.13req/s] [内存消耗：4,138.87kb] [文件加载：123]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011702s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.007839s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` WHERE  `grade` = '17' LIMIT 1 [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.007704s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_score` [ RunTime:0.008017s ]
+[ sql ] [ SQL ] SELECT `ms_score`.*,`pivot`.`studentId` AS `pivot__studentId`,`pivot`.`studentName` AS `pivot__studentName`,`pivot`.`gender` AS `pivot__gender`,`pivot`.`both` AS `pivot__both`,`pivot`.`salt` AS `pivot__salt`,`pivot`.`password` AS `pivot__password`,`pivot`.`contact` AS `pivot__contact`,`pivot`.`grade` AS `pivot__grade`,`pivot`.`years` AS `pivot__years`,`pivot`.`departmentId` AS `pivot__departmentId`,`pivot`.`departmentName` AS `pivot__departmentName`,`pivot`.`majorId` AS `pivot__majorId`,`pivot`.`majorName` AS `pivot__majorName`,`pivot`.`class` AS `pivot__class`,`pivot`.`classId` AS `pivot__classId`,`pivot`.`seat` AS `pivot__seat`,`pivot`.`active` AS `pivot__active`,`pivot`.`idCard` AS `pivot__idCard`,`pivot`.`address` AS `pivot__address`,`pivot`.`studentImg` AS `pivot__studentImg` FROM `ms_score` INNER JOIN `ms_student` `pivot` ON `pivot`.`studentId`=`ms_score`.`studentId` WHERE  `pivot`.`grade` = '17' [ RunTime:0.000526s ]
+[ sql ] [ SQL ] INSERT INTO `ms_score` (`score`) VALUES ('10') [ RunTime:0.006075s ]
+[ error ] [0]缺少关联表数据[C:\#ThinkPhp\thinkphp5\thinkphp\library\think\model\relation\BelongsToMany.php:577]
+---------------------------------------------------------------
+
+[2020-05-12T01:44:12+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.091076s] [吞吐率：10.98req/s] [内存消耗：4,139.77kb] [文件加载：123]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001106s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.007525s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` WHERE  `grade` = '17' LIMIT 1 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.007547s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_score` [ RunTime:0.007609s ]
+[ sql ] [ SQL ] SELECT `ms_score`.*,`pivot`.`studentId` AS `pivot__studentId`,`pivot`.`studentName` AS `pivot__studentName`,`pivot`.`gender` AS `pivot__gender`,`pivot`.`both` AS `pivot__both`,`pivot`.`salt` AS `pivot__salt`,`pivot`.`password` AS `pivot__password`,`pivot`.`contact` AS `pivot__contact`,`pivot`.`grade` AS `pivot__grade`,`pivot`.`years` AS `pivot__years`,`pivot`.`departmentId` AS `pivot__departmentId`,`pivot`.`departmentName` AS `pivot__departmentName`,`pivot`.`majorId` AS `pivot__majorId`,`pivot`.`majorName` AS `pivot__majorName`,`pivot`.`class` AS `pivot__class`,`pivot`.`classId` AS `pivot__classId`,`pivot`.`seat` AS `pivot__seat`,`pivot`.`active` AS `pivot__active`,`pivot`.`idCard` AS `pivot__idCard`,`pivot`.`address` AS `pivot__address`,`pivot`.`studentImg` AS `pivot__studentImg` FROM `ms_score` INNER JOIN `ms_student` `pivot` ON `pivot`.`studentId`=`ms_score`.`studentId` WHERE  `pivot`.`grade` = '17' [ RunTime:0.000765s ]
+[ sql ] [ SQL ] INSERT INTO `ms_score` (`studentId` , `score`) VALUES ('1730502127' , '10') [ RunTime:0.005699s ]
+[ error ] [0]缺少关联表数据[C:\#ThinkPhp\thinkphp5\thinkphp\library\think\model\relation\BelongsToMany.php:577]
+---------------------------------------------------------------
+
+[2020-05-12T01:46:22+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.032308s] [吞吐率：30.95req/s] [内存消耗：1,860.13kb] [文件加载：72]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ error ] [0]语法解析错误: syntax error, unexpected ';', expecting ')'[C:\#ThinkPhp\thinkphp5\application\db\controller\Forgen.php:198]
+---------------------------------------------------------------
+
+[2020-05-12T01:46:35+08:00] 127.0.0.1 GET 127.0.0.1:7788/public/db/forgen/many
+[运行时间：0.596586s] [吞吐率：1.68req/s] [内存消耗：4,011.74kb] [文件加载：119]
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\#ThinkPhp\thinkphp5\application\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; thinkphp_show_page_trace=1|4; log=0; _ga=GA1.1.1732484588.1573550797; PHPSESSID=iosgif714jtb1q025fph7ast23',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:7788',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010184s ] mysql:host=127.0.0.1;port=3306;dbname=management_system;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_grade` [ RunTime:0.492802s ]
+[ sql ] [ SQL ] SELECT * FROM `ms_grade` WHERE  `grade` = '17' LIMIT 1 [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_student` [ RunTime:0.008653s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ms_score` [ RunTime:0.010947s ]
+[ sql ] [ SQL ] SELECT `ms_score`.*,`pivot`.`studentId` AS `pivot__studentId`,`pivot`.`studentName` AS `pivot__studentName`,`pivot`.`gender` AS `pivot__gender`,`pivot`.`both` AS `pivot__both`,`pivot`.`salt` AS `pivot__salt`,`pivot`.`password` AS `pivot__password`,`pivot`.`contact` AS `pivot__contact`,`pivot`.`grade` AS `pivot__grade`,`pivot`.`years` AS `pivot__years`,`pivot`.`departmentId` AS `pivot__departmentId`,`pivot`.`departmentName` AS `pivot__departmentName`,`pivot`.`majorId` AS `pivot__majorId`,`pivot`.`majorName` AS `pivot__majorName`,`pivot`.`class` AS `pivot__class`,`pivot`.`classId` AS `pivot__classId`,`pivot`.`seat` AS `pivot__seat`,`pivot`.`active` AS `pivot__active`,`pivot`.`idCard` AS `pivot__idCard`,`pivot`.`address` AS `pivot__address`,`pivot`.`studentImg` AS `pivot__studentImg` FROM `ms_score` INNER JOIN `ms_student` `pivot` ON `pivot`.`studentId`=`ms_score`.`studentId` WHERE  `pivot`.`grade` = '17' [ RunTime:0.000476s ]
+[ sql ] [ SQL ] REPLACE INTO `ms_student` (`grade` , `studentId`) VALUES ('17' , '1730502127') [ RunTime:0.000872s ]
