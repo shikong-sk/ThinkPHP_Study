@@ -105,41 +105,4 @@ class Index extends Controller {
 //        return json($data);
         return $data;
     }
-
-    public function event(){
-        $data = Db::name('student')->select();
-        dump($data);
-
-        $data = Db::name('student')->find();
-        dump($data);
-
-        // 模型事件
-        $data = [
-            "studentName" => "时空",
-            "idCard" => Db::raw('UPPER(idCard)'),
-        ];
-        Student::update($data,['studentId'=>'1730502127']);
-
-    }
-
-    // 数据库事件
-    protected function initialize()
-    {
-        // event 事件参数
-        // before_select    select  查询前回调
-        // before_find      find    查询前回调
-        // after_insert     insert  操作成功回调
-        // after_update     update  操作成功回调
-        // after_delete     delete  操作成功回调
-
-        Db::event('before_select',function ($query){
-            echo '批量查询操作触发';
-        });
-
-        Db::event('before_find',function ($query){
-            echo '单记录查询操作触发';
-        });
-
-
-    }
 }
