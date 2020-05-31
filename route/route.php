@@ -165,6 +165,8 @@ Route::group(
 
 // 路由绑定
 //Route::bind("testAdmin");
+//Route::bind('\app\test_admin\controller\Index');
+//Route::bind(':\app\test_admin\controller');
 
 // 别名路由 (TP6已废弃)
 Route::alias("admin","test_admin/Index"); // 访问路径 admin/read/?id=1
@@ -217,16 +219,16 @@ Route::get("rely/edit/:id","rely/Index/edit")
 
 // 局部 路由中间件
 // 中间件所在目录 application/http/middlewlare/
-Route::get("read/:id","inject/index/read")
-//    ->middleware(app\http\middleware\Check::class)
-//    ->middleware('app\http\middleware\Check')
-//    ->middleware('Check')
-//    ->middleware(['Check',]) // 调用多个
-//    ->middleware(['Check:from route',]) // 传值
-    ->middleware([
-        ['Check','array route']
-    ]) // 数组传值
-;
+//Route::get("read/:id","inject/index/read")
+////    ->middleware(app\http\middleware\Check::class)
+////    ->middleware('app\http\middleware\Check')
+////    ->middleware('Check')
+////    ->middleware(['Check',]) // 调用多个
+////    ->middleware(['Check:from route',]) // 传值
+//    ->middleware([
+//        ['Check','array route']
+//    ]) // 数组传值
+//;
 
 // 路由验证
 //Route::get('vRead/:id','verify/Index/read')
@@ -244,6 +246,8 @@ Route::get('vRead/:id','verify/Index/read')
     ],
     true) // 批量验证
 ;
+
+Route::get('response403',response()->code(403));
 
 return [
 
