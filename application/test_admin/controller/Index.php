@@ -11,6 +11,6 @@ class Index
     }
 
     public function read($id){
-        return "read id : $id";
+        return "app\\test_admin\\controller read id : $id";
     }
 }
