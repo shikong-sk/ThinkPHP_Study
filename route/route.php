@@ -219,16 +219,16 @@ Route::get("rely/edit/:id","rely/Index/edit")
 
 // 局部 路由中间件
 // 中间件所在目录 application/http/middlewlare/
-//Route::get("read/:id","inject/index/read")
-////    ->middleware(app\http\middleware\Check::class)
-////    ->middleware('app\http\middleware\Check')
-////    ->middleware('Check')
-////    ->middleware(['Check',]) // 调用多个
-////    ->middleware(['Check:from route',]) // 传值
-//    ->middleware([
-//        ['Check','array route']
-//    ]) // 数组传值
-//;
+Route::get("read/:id","inject/index/read")
+//    ->middleware(app\http\middleware\Check::class)
+//    ->middleware('app\http\middleware\Check')
+//    ->middleware('Check')
+//    ->middleware(['Check',]) // 调用多个
+//    ->middleware(['Check:from route',]) // 传值
+    ->middleware([
+        ['Check','array route']
+    ]) // 数组传值
+;
 
 // 路由验证
 //Route::get('vRead/:id','verify/Index/read')
